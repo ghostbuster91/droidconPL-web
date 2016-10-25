@@ -9,7 +9,9 @@ $ npm install
 $ npm start
 ```
 
-### Build
+### Build the project
+
+This will create /public folder.
 
 ```sh
 $ npm run build
