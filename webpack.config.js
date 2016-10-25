@@ -7,18 +7,17 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var helpers = require('./config/helpers');
 
 module.exports = {
-  context: __dirname,
+  devtool: "eval",
   entry: {
-    'app': './main.ts',
-    'vendor': './vendor.ts',
-    'polyfills': './polyfills.ts'
+    'app': './main',
+    'vendor': './vendor',
+    'polyfills': './polyfills'
   },
   output: {
-    // path: helpers.root('public'),
-    path: __dirname + "/public",
-    // publicPath: 'http://localhost:8080/',
-    filename: '/public/[name].bundle.js',
-    chunkFilename: '/public/[id].bundle.js'
+    path: helpers.root('public'),
+    publicPath: 'http://localhost:8080',
+    filename: 'js/[name].bundle.js',
+    chunkFilename: 'js/[id].bundle.js'
   },
 
   resolve: {
@@ -27,11 +26,6 @@ module.exports = {
 
   module: {
     loaders: [
-      {
-        test: /\.ts$/,
-        loaders: ['awesome-typescript-loader', 'angular2-template-loader'],
-        include: __dirname
-      },
       {
         test: /\.html$/,
         loader: 'html-loader?minimize=false'
@@ -42,18 +36,22 @@ module.exports = {
         include: __dirname
       },
       {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+      },
+      {
         test: /\.styl$/,
         loaders: ['style-loader', 'css-loader', 'stylus-loader'],
         include: __dirname
       },
       {
-        test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-        loader: 'file?name=assets/[name].[hash].[ext]'
+        test: /\.ts$/,
+        loaders: ['awesome-typescript-loader', 'angular2-template-loader'],
+        include: __dirname
       },
       {
-        test: /\.css?$/,
-        loaders: ['style', 'raw'],
-        include: __dirname
+        test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
+        loader: 'file?name=assets/[name].[hash].[ext]'
       }
     ]
   },
@@ -67,7 +65,7 @@ module.exports = {
       template: 'index.pug'
     }),
 
-    new ExtractTextPlugin('/public/[name].css')
+    new ExtractTextPlugin('stylesheets/[name].css')
   ],
 
   devServer: {

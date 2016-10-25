@@ -1,14 +1,40 @@
-.idea
-node_modules
-**/*npm-debug.log.*
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/public
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
 *.js
 *.js.map
-e2e/**/*.js
-e2e/**/*.js.map
-_test-output
-_temp
 
+# e2e
+/e2e/*.js
+/e2e/*.map
 
+#System Files
+.DS_Store
+Thumbs.db
+
+# include
 !webpack.config.js
-!wallaby.js
-!helpers.js
