@@ -25,8 +25,10 @@
 npm-debug.log
 testem.log
 /typings
-*.js
-*.js.map
+/app/*.js
+/app/*.js.map
+/*.js
+/*.js.map
 
 # e2e
 /e2e/*.js
@@ -38,3 +40,4 @@ Thumbs.db
 
 # include
 !webpack.config.js
+!webpack.common.js
