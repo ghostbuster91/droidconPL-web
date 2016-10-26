@@ -1,8 +1,8 @@
 {
   "author": "Agnieszka Cieśla",
-  "name": "angular2-typescript-template-project",
+  "name": "droidconPL-web",
   "version": "1.0.0",
-  "description": "Angular 2.0 application in TypeScript template. Webpack module bundler.",
+  "description": "droidcon Poland conference website",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/agnieszkaac/angular2-typescript-template-project"
+    "url": "https://github.com/droidconpl/droidconPL-web"
   },
   "dependencies": {
     "@angular/common": "~2.1.0",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "angular2-template-loader": "^0.4.0",
     "awesome-typescript-loader": "^2.2.4",
-    "css-loader": "^0.23.1",
+    "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "gh-pages": "^0.11.0",

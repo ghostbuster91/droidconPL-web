@@ -11,7 +11,7 @@ module.exports = webpackMerge(commonConfig, {
 
   output: {
     path: helpers.root('public'),
-    publicPath: 'https://agnieszkaac.github.io/angular2-typescript-template-project/',
+    publicPath: 'https://github.com/droidconpl/droidconPL-web',
     filename: 'js/[name].[hash].js',
     chunkFilename: 'js/[id].[hash].chunk.js'
   },
