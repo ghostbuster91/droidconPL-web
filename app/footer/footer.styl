@@ -1,11 +1,108 @@
-// Footer styles
+@import "../_variables.styl";
 
-footer
+// Footer heights
+xsFooterHeight = 400px;
+mdFooterHeight = 350px;
+lgFooterHeight = 250px;
+
+// Footer styles
+body
+  /* Margin bottom by footer height */
+  margin-bottom: xsFooterHeight
+  @media md
+    margin-bottom: mdFooterHeight
+  @media lg
+    margin-bottom: lgFooterHeight
+
+footer#footer-section
   position: absolute
   bottom: 0
   width: 100%
-  height: 50px
-  line-height: 50px
-  color: white
+  height: xsFooterHeight
+  background-color: #1F1F1F
+  color: #EEEDEC
   text-align: center
-  background-color: black
+  font-family: "neristhin", Helvetica, Arial, sans-serif
+  font-size: 16px
+  padding: 20px 0 0
+  @media sm
+    font-size: 18px
+    padding: 30px 0 0
+  @media md
+    height: mdFooterHeight
+    padding: 30px 0
+    text-align: left
+  @media lg
+    height: lgFooterHeight
+
+  .footer-header
+    font-weight: 700
+  .footer-list
+    list-style: none
+    margin: 10px 0
+    padding: 0
+    li
+      margin-top 5px
+  .anchor
+    color: colWhite
+    &:hover
+      color: colWhite
+      text-decoration: none
+
+  .social-icons
+    padding-top: 40px
+    @media sm
+      padding-top: 25px
+    @media md
+      text-align: right
+      float: right
+      padding-top: 0px
+      margin-top: -35px
+    @media lg
+      margin-top: 10px
+
+    .social-img
+      height: 30px
+      margin: 0 22px
+      &:hover
+        fill: red
+      @media sm
+        margin: 0 30px
+      @media md
+        margin: 0 15px
+      @media lg
+        margin: 0 20px
+
+  #underline
+    width: 85%
+    border-bottom: 1px solid white
+    margin: 20px auto
+    @media md
+      margin-top: 20px
+      margin-bottom: 20px
+      margin-right: 0
+      width: 310px
+    @media lg
+      width: 350px
+      margin-top: 30px
+      margin-bottom: 30px
+
+  #global-reference
+    text-align: left
+    font-size: 14px
+    img
+      height: 75px
+      float: right
+      @media lg
+        height: 90px
+    p
+      height 70px
+      margin 5px 0
+      max-width 200px
+
+  #copyright
+    position: absolute
+    bottom: 10px
+    width: 100%
+    text-align: center
+    font-size: 14px
