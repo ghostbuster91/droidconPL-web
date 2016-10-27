@@ -37,7 +37,7 @@ module.exports = {
       },
       // {
       //   test: /\.css$/,
-      //   include: helpers.root('public'),
+      //   include: helpers.root('app'),
       //   loader: 'raw'
       // },
       {
@@ -48,9 +48,25 @@ module.exports = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
-          'file?hash=sha512&digest=hex&name=assets/[name].[ext]',
+          'file?hash=sha512&digest=hex&name=assets/images/[name].[ext]',
           'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
+      },
+      {
+        test: /\.woff$/,
+        loader: 'url',
+        query: {
+          name: 'assets/fonts/[hash].[ext]',
+          limit: 5000,
+          mimetype: 'application/font-woff'
+        }
+      },
+      {
+        test: /\.ttf$|\.eot$/,
+        loader: 'file',
+        query: {
+          name: 'assets/fonts/[hash].[ext]'
+        }
       }
     ]
   },
