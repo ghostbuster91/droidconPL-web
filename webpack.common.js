@@ -28,8 +28,7 @@ module.exports = {
       },
       {
         test: /\.(pug|jade)$/,
-        loader: 'pug-html-loader',
-        include: __dirname
+        loader: 'pug-html-loader'
       },
       {
         test: /\.css$/,
@@ -47,8 +46,11 @@ module.exports = {
         include: __dirname
       },
       {
-        test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-        loader: 'file?name=assets/[name].[hash].[ext]'
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=assets/[name].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ]
       }
     ]
   },
