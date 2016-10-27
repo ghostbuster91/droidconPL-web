@@ -1,9 +1,24 @@
-header
-  .container
-    .row
-      .col-xs-12
-        h1 droidcon Kraków website
-
+header#main-banner
+  img#main-graphic(src="{{mainBackgroundImg}}" alt="droidcon Kraków main graphic")
+  #conference-timer
+    .clock-builder-output
+      .countdown-fld
+        span Days
+        #days
+      .countdown-fld
+        span Hours
+        #hours
+      .countdown-fld
+        span Minutes
+        #minutes
+      .countdown-fld
+        span Seconds
+        #seconds
+  #main-buttons
+    a.green-button(href="https://goo.gl/eyw7uF" target="_blank") Buy ticket
+    a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Call4Papers
+    //- TODO Dodać href do sekcji Contact
+    a.green-button(href="" target="_blank") Contact
 
 section#app
   .container

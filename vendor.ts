@@ -12,3 +12,4 @@ import 'rxjs';
 import 'bootstrap/dist/css/bootstrap.css'
 import '@ng-bootstrap/ng-bootstrap';
 import 'jquery';
+import './assets/clock_assets/jquery.countdown.min.js';

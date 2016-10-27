@@ -7,4 +7,7 @@ import { FooterComponent } from './footer/footer.component';
   styles: [require('./app.component.styl').toString()]
 })
 
-export class AppComponent { }
+export class AppComponent {
+  mainBackgroundImg: string = require('../assets/images/droidconKraków2016.png');
+
+}
