@@ -1,26 +1,41 @@
 @import "./_variables.styl";
 
+.container
+  @media lg
+    width: 1250px
+    
 section
   padding: 50px 0
   font-family: "nerislight", Helvetica, Arial, sans-serif
-  font-size 16px
+  font-size: 18px
+  @media sm
+    font-size: 20px
   @media md
-    font-size 18px
     padding: 70px 0
+    font-size: 22px
   .section-header
     font-family: "nerisblack", Helvetica, Arial, sans-serif
+    font-size: 40px
     @media md
       font-size: 55px
+  .section-subtitle
+    text-align: center
+    font-family: "nerissemibold", Helvetica, Arial, sans-serif
+    font-size: 28px
 
   .section-paragraph
+    min-width: 300px
     max-width: 320px
-    margin: 0 auto
     padding: 5px 0 10px
     text-align: center
-    @media xs
+    margin: 20px auto
+    @media sm
+      min-width: 340px
       max-width: 360px
     @media md
-      max-width: 420px
+      max-width: 510px
+    @media lg
+      margin: 0 auto
 
 // backgrounds
 .white-background
@@ -33,6 +48,10 @@ section
 
 .grey-background
   background-color: colGrey
+  color: colWhite
+
+.green-background
+  background-color: colGreen
   color: colWhite
 
 // Elements
