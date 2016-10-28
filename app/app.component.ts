@@ -9,5 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 
 export class AppComponent {
   mainBackgroundImg: string = require('../assets/images/droidconKraków2016.png');
+  calendarIcon: string = require('../assets/images/calendar.png');
+  pinIcon: string = require('../assets/images/location.png');
 
 }

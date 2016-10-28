@@ -1,3 +1,37 @@
+@import "./_variables.styl";
+
+section
+  padding: 50px 0
+  font-family: "nerislight", Helvetica, Arial, sans-serif
+  font-size 16px
+  @media md
+    font-size 18px
+    padding: 70px 0
+  .section-header
+    font-family: "nerisblack", Helvetica, Arial, sans-serif
+    @media md
+      font-size: 55px
+
+  .section-paragraph
+    max-width: 320px
+    margin: 0 auto
+    padding: 5px 0 10px
+    text-align: center
+    @media xs
+      max-width: 360px
+    @media md
+      max-width: 420px
+
+// backgrounds
+.white-background
+  background-color: colWhite
+  color: textBlack
+
+.light-background
+  background-color: colLight
+  color: textBlack
+
+// Elements
 .green-button
   min-width: 200px
   height: 50px
@@ -7,11 +41,13 @@
   background-color: colGreen
   color: white
   font-family: 'nerissemibold', sans-serif
-  font-size: 16px
+  font-size: 22px
   transition: background-color 0.3s ease
-  border: none
+  border-radius: 10px
   display: inline-table
   &:hover, &:active, &:focus
     background-color: #7CC900
     text-decoration: none
     color: white
+  @media md
+    font-size: 24px

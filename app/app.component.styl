@@ -98,10 +98,41 @@ smMainBannerHeight = 100vh
     #main-buttons
       bottom: 50px
 
-section#app
-  padding: 0
-  margin: 0
-  padding-bottom: 50px
+section#about
+  .when-where
+    margin 20px auto 0
+    max-width 315px
+    display table
+    img
+      width 40px
+      margin-right 20px
+      display table-cell
+      vertical-align middle
+    p
+      display table-cell
+      vertical-align middle
+    &.empty
+      width 315px
+      p
+        width 100%
+    @media xs
+      max-width 340px
+    @media md
+      margin-top 20px
+      max-width 350px
+      float right
+      &.empty
+        float left
 
-#app-par
-  color: red
+
+section#recaption
+
+  #youtube-iframe
+    border: none
+    display: block
+    margin: 30px auto 30px
+    @media md
+      width: 560px !important
+      height: 349px !important
+    @media xl
+      margin: -30px auto 30px

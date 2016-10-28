@@ -16,15 +16,54 @@ header#main-banner
         #seconds
   #main-buttons
     a.green-button(href="https://goo.gl/eyw7uF" target="_blank") Buy ticket
-    a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Call4Papers
+    a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Call 4 Papers
     //- TODO Dodać href do sekcji Contact
     a.green-button(href="" target="_blank") Contact
 
-section#app
+section#about.white-background
   .container
     .row
-      .col-xs-8
-        p#app-par
-          | This is the firs Angular component in the app
+      .col-xs-7.col-sm-6.col-lg-4
+        h1.section-header About the conference
+    .row
+      .col-xs-12
+        p.section-paragraph
+          | droidcon Kraków is a part of global conference
+          | series and a network focusing on the best of Android.
+          br
+          | Be a part of it!
+          br
+          | Join 3rd edition of droidcon Kraków!
+    .row
+      .col-xs-12.col-md-6
+        .when-where
+          img(src="{{calendarIcon}}" alt="Calendar icon image")
+          p
+            | 8-9th December 2016 - Conference
+            br
+            | 10th December 2016 - Hackathon
+      .col-xs-12.col-md-6
+        .when-where.empty
+          img(src="{{pinIcon}}" alt="Venue icon image")
+          p
+            | ParkInn by Radisson
+            br
+            | Monte Cassino 2 St., Kraków
+
+section#recaption.light-background
+  .container
+    .row
+      .col-xs-7.col-sm-6.col-lg-4
+        h1.section-header  How was it last year?
+    .row
+      .col-xs-12
+        iframe#youtube-iframe(
+          width="320" height="215"
+          src="http://www.youtube.com/embed/Dg-dbrP9PaM?"
+        )
+    .row
+      .col-xs-12
+        .section-paragraph
+          a.green-button(href="https://www.youtube.com/watch?v=Dg-dbrP9PaM&list=PLvpKlOXx1MBMfL4llJOi0VX6LcQVP0Su0" target="_blank") See more
 
 app-footer
