@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from './footer/footer.component';
+import { SpeakersComponent } from './speakers/speakers.component';
 
 @Component({
   selector: 'my-app',

@@ -67,6 +67,10 @@ module.exports = {
         query: {
           name: 'assets/fonts/[hash].[ext]'
         }
+      },
+      {
+        test: /\.json/,
+        loader: "json"
       }
     ]
   },

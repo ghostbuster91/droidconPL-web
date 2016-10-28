@@ -1,0 +1,15 @@
+section#speakers.white-background
+  .container
+    .row
+      .col-xs-7.col-sm-6.col-lg-4
+        h1.section-header See our speakers!
+    .row.preview-stack
+      .col-xs-6.col-md-4(*ngFor="let speaker of speakers")
+        .speaker-bracket {{speaker}}
+    //- TODO - when routing added, add a seperate page with full view of speakers
+    //- .row.full-stack
+    //-   .col-xs-6.col-md-4(*ngFor="let speaker of speakers")
+    //-     span {{speaker}}
+    .row
+      .col-xs-12
+        p.section-paragraph More speakers will be published soon!

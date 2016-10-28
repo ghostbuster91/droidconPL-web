@@ -4,6 +4,8 @@ import { NgbModule }      from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { SpeakersComponent } from './speakers/speakers.component';
+import { SpeakersService } from './speakers/speakers.service';
 
 @NgModule({
   imports:      [
@@ -12,8 +14,10 @@ import { FooterComponent } from './footer/footer.component';
   ],
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    SpeakersComponent
   ],
+  providers: [ SpeakersService ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
