@@ -5,7 +5,7 @@ import { SpeakersComponent } from './speakers/speakers.component';
 @Component({
   selector: 'my-app',
   template: require('./app.component.pug'),
-  styles: [require('./app.component.styl').toString()]
+  styles: [require('../assets/fonts/fonts.styl').toString(), require('./app.component.styl').toString()]
 })
 
 export class AppComponent {

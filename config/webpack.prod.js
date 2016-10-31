@@ -12,7 +12,7 @@ module.exports = webpackMerge(commonConfig, {
 
   output: {
     path: helpers.root('public'),
-    publicPath: 'https://droidconpl.github.io/droidconPL-web/',
+    publicPath: 'http://droidcon.pl/',
     filename: 'js/[name].[hash].js',
     chunkFilename: 'js/[id].[hash].chunk.js'
   },
@@ -38,7 +38,7 @@ module.exports = webpackMerge(commonConfig, {
 
     new CopyWebpackPlugin([
       {from: 'assets/clock_assets', to: 'assets/clock_assets'},
-      {from: 'assets/photos/speakers', to: 'assets/photos/speakers'},
+      // {from: 'assets/photos/speakers', to: 'assets/photos/speakers'},
       {from: 'model/', to: 'model/'}
     ])
   ]

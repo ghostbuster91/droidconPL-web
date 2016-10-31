@@ -35,39 +35,32 @@ module.exports = {
         exclude: helpers.root('app'),
         loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },
-      // {
-      //   test: /\.css$/,
-      //   include: helpers.root('app'),
-      //   loader: 'raw'
-      // },
       {
         test: /\.styl$/,
         loaders: ['style-loader', 'css-loader', 'stylus-loader'],
-        include: __dirname
+        include: helpers.root('..')
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
           'file?hash=sha512&digest=hex&name=assets/images/[name].[ext]',
           'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ]
+        ],
+        include: helpers.root('assets/images')
       },
       {
-        test: /\.woff$/,
-        loader: 'url',
-        query: {
-          name: 'assets/fonts/[hash].[ext]',
-          limit: 5000,
-          mimetype: 'application/font-woff'
-        }
+        test: /\.(jpe?g|png)$/i,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=assets/photos/[name].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ],
+        include: helpers.root('assets/photos')
       },
-      {
-        test: /\.ttf$|\.eot$/,
-        loader: 'file',
-        query: {
-          name: 'assets/fonts/[hash].[ext]'
-        }
-      },
+      // { test: /\.svg$/, loader: 'url?limit=65000&mimetype=image/svg+xml&name=public/fonts/[name].[ext]' },
+      { test: /\.woff$/, loader: 'url?limit=65000&mimetype=application/font-woff&name=assets/fonts/[name].[ext]' },
+      { test: /\.woff2$/, loader: 'url?limit=65000&mimetype=application/font-woff2&name=assets/fonts/[name].[ext]' },
+      { test: /\.[ot]tf$/, loader: 'url?limit=65000&mimetype=application/octet-stream&name=assets/fonts/[name].[ext]' },
+      { test: /\.eot$/, loader: 'url?limit=65000&mimetype=application/vnd.ms-fontobject&name=assets/fonts/[name].[ext]' },
       {
         test: /\.json/,
         loader: "json"
