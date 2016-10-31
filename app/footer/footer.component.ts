@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-// import facebookImage = require("assets/images/facebook.svg");
-
 @Component({
   selector: 'app-footer',
   template: require('./footer.component.pug'),
@@ -41,8 +39,6 @@ export class FooterComponent {
       "alt": "YouTube logo"
     }
   };
-  constructor() {
-    // console.log(this.imgSrc);
-  }
+  constructor() { }
 
 }

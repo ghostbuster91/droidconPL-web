@@ -4,38 +4,35 @@ footer#footer-section
       .col-xs-6.col-md-4.col-lg-3
         .footer-header Conference
         ul.footer-list
-          li: a.anchor(href="#about-section") About
-          li: a.anchor(href="") Code of Conduct
-          li: a.anchor(href="") Contact
+          li: a.anchor(href="#about") About
+          li: a.anchor(href="#speakers") Speakers
+          //- li: a.anchor(href="") Code of Conduct
+          li: a.anchor(href="#contact") Contact
       .col-xs-6.col-md-4.col-lg-3
         .footer-header Previous editions
         ul.footer-list
           li: a.anchor(href="http://2015.droidcon.pl" target="_blank") 2015
           li: a.anchor(href="http://2014.droidcon.pl" target="_blank") 2014
-      .col-xs-12.col-md-12.col-lg-6.social-icons
-        .row
+      .col-xs-12.col-md-12.col-lg-6#social-and-global
+        .row#social-icons
           .col-xs-12
             a(href="{{socialAssets.facebook.href}}" target="_blank")
-              img.social-img(src="{{socialAssets.facebook.imgSrc}}" alt="{{socialAssets.facebook.alt}}")
+              .social-img([inlineSVG]="socialAssets.facebook.imgSrc")
             a(href="{{socialAssets.twitter.href}}" target="_blank")
-              img.social-img(src="{{socialAssets.twitter.imgSrc}}" alt="{{socialAssets.twitter.alt}}")
+              .social-img([inlineSVG]="socialAssets.twitter.imgSrc")
             a(href="{{socialAssets.github.href}}" target="_blank")
-              img.social-img(src="{{socialAssets.github.imgSrc}}" alt="{{socialAssets.github.alt}}")
+              .social-img([inlineSVG]="socialAssets.github.imgSrc")
             a(href="{{socialAssets.googlePlus.href}}" target="_blank")
-              img.social-img(src="{{socialAssets.googlePlus.imgSrc}}" alt="{{socialAssets.googlePlus.alt}}")
+              .social-img([inlineSVG]="socialAssets.googlePlus.imgSrc")
             a(href="{{socialAssets.youTube.href}}" target="_blank")
-              img.social-img(src="{{socialAssets.youTube.imgSrc}}" alt="{{socialAssets.youTube.alt}}")
-            //TODO picture media
-        .row
-          .col-xs-12
-            #underline
+              .social-img([inlineSVG]="socialAssets.youTube.imgSrc")
+            //- TODO picture media
         .row#global-reference
           .col-xs-6.col-md-9.col-lg-8
             img(src="{{socialAssets.droidconGlobal.imgSrc}}" alt="{{socialAssets.droidconGlobal.alt}}")
           .col-xs-6.col-md-3.col-lg-4
             p
               | droidcon is a registered trademark by
-              br
               | Mobile Seasons GmbH
   #copyright.container
     .row
