@@ -11,7 +11,7 @@
     "githubLink": "https://github.com/patloew",
     "linkedIn": "https://at.linkedin.com/in/patrickloewenstein",
     "googlePlus": "https://plus.google.com/+PatrickLöwenstein",
-    "imageUrl": "../assets/photos/speakers/Patrick-Lowenstein.jpg"
+    "imageUrl": "Patrick-Lowenstein.jpg"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "githubLink": "",
     "linkedIn": "https://fr.linkedin.com/in/gautier-mechling-9a0a7236",
     "googlePlus": "https://plus.google.com/+GautierMechling",
-    "imageUrl": "../assets/photos/speakers/Gautier-Mechling.jpg"
+    "imageUrl": "Gautier-Mechling.jpg"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
     "githubLink": "https://github.com/pflammertsma",
     "linkedIn": "https://www.linkedin.com/in/paullammertsma",
     "googlePlus": "https://plus.google.com/u/0/+PaulLammertsma",
-    "imageUrl": "../assets/photos/speakers/Paul-Lammertsma.jpg"
+    "imageUrl": "Paul-Lammertsma.jpg"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
     "githubLink":"",
     "linkedIn":"https://linkedin.com/in/protechman",
     "googlePlus":"https://plus.google.com/+rcaneryildirim",
-    "imageUrl":"../assets/photos/speakers/Resul-Caner-Yildirim.jpg"
+    "imageUrl":"Resul-Caner-Yildirim.jpg"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
     "githubLink": "github.com/dpreussler",
     "linkedIn": "https://www.linkedin.com/in/danny-preussler-557a3b79",
     "googlePlus": "https://plus.google.com/+DannyPreussler",
-    "imageUrl": "../assets/photos/speakers/Danny-Preussler.png"
+    "imageUrl": "Danny-Preussler.png"
   },
   {
     "id": 6,
@@ -81,6 +81,6 @@
     "githubLink": "https://github.com/mplacona",
     "linkedIn": "",
     "googlePlus": "https://plus.google.com/+MarcosPlacona",
-    "imageUrl": "../assets/photos/speakers/Marcos-Placona.jpg"
+    "imageUrl": "Marcos-Placona.jpg"
   }
 ]
