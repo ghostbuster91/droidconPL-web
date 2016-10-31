@@ -1,16 +1,19 @@
 import { NgModule }       from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 import { NgbModule }      from '@ng-bootstrap/ng-bootstrap';
+import { InlineSVGModule } from 'ng2-inline-svg';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SpeakersService } from './speakers/speakers.service';
 
+
 @NgModule({
   imports:      [
     BrowserModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    InlineSVGModule
   ],
   declarations: [
     AppComponent,
