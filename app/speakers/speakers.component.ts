@@ -8,9 +8,13 @@ import { SpeakersService } from './speakers.service';
 })
 
 export class SpeakersComponent {
-  speakers: any;
+  speakers: string[] = [];
+
   constructor(speakersService : SpeakersService) {
     this.speakers = speakersService.getSpeakers();
   }
 
+  speakerImg(img: string) {
+    return require('../../assets/photos/speakers/' + img);
+  }
 }

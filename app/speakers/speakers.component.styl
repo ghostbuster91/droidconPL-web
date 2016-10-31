@@ -1,6 +1,28 @@
+@import "../_variables.styl";
+
 /* Speaker section styles */
 section#speakers
+  .preview-stack
+
   .speaker-bracket
-    text-align: center;
-    height: 250px
-    padding: 20px
+    text-align: center
+    margin: 30px auto
+    .speaker-photo
+      height: 250px
+      width: auto
+      border-radius: 100%
+      display: block
+      margin: 0 auto
+      padding: 10px
+      box-shadow: none
+      transition: all 0.2s
+      // &:hover
+      //   cursor: pointer
+      //   box-shadow: 0 0 0 5px colGreen
+
+    .speaker-name
+      display: block
+      font-weight: 700
+
+    .speaker-title
+      display: block

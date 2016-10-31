@@ -38,6 +38,7 @@ module.exports = webpackMerge(commonConfig, {
 
     new CopyWebpackPlugin([
       {from: 'assets/clock_assets', to: 'assets/clock_assets'},
+      {from: 'assets/photos/speakers', to: 'assets/photos/speakers'},
       {from: 'model/', to: 'model/'}
     ])
   ]

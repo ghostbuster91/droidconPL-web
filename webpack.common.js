@@ -82,6 +82,11 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: 'index.pug'
+    }),
+
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
     })
   ]
 };

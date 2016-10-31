@@ -9,8 +9,8 @@ import { SpeakersService } from './speakers/speakers.service';
 
 @NgModule({
   imports:      [
-    NgbModule.forRoot(),
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   declarations: [
     AppComponent,

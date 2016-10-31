@@ -1,11 +1,16 @@
+
 section#speakers.white-background
   .container
     .row
       .col-xs-7.col-sm-6.col-lg-4
         h1.section-header See our speakers!
     .row.preview-stack
-      .col-xs-6.col-md-4(*ngFor="let speaker of speakers")
-        .speaker-bracket {{speaker}}
+      .col-xs-12.col-md-4(*ngFor="let speaker of speakers")
+        .speaker-bracket
+          img.speaker-photo(src="{{speakerImg(speaker.imageUrl)}}")
+          span.speaker-name {{speaker.firstName}} {{speaker.lastName}}
+          span.speaker-title {{speaker.websiteTitle}}
+
     //- TODO - when routing added, add a seperate page with full view of speakers
     //- .row.full-stack
     //-   .col-xs-6.col-md-4(*ngFor="let speaker of speakers")

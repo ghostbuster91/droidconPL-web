@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 export class SpeakersService{
 
   getSpeakers() : string[]{
-    return ['Piotr', 'Lesio', 'Marek'];
+    return require('../../model/speakers.json');
   }
 
 }
