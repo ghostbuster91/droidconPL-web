@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SpeakersComponent } from '../speakers/speakers.component';
+import { PartnersComponent } from '../partners/partners.component';
 
 @Component({
   selector: 'home-page',

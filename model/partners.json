@@ -1,0 +1,92 @@
+[
+  {
+      "partnerName": "GDG Warszawa",
+      "partnerUrl": "https://plus.google.com/+GdgWarszawaPl/posts",
+      "partnerLogo": "gdg-warsaw-logo-200x200.png"
+  },
+  {
+      "partnerName": "Huntly",
+      "partnerUrl": "https://www.huntlyapp.com/",
+      "partnerLogo": "huntly-logo-200x200.png"
+  },
+  {
+      "partnerName": "TOAST Wrocław",
+      "partnerUrl": "https://www.facebook.com/toastwroclaw/",
+      "partnerLogo": "toast-logo-200x200.png"
+  },
+  {
+      "partnerName": "Mobilization",
+      "partnerUrl": "http://2015.mobilization.pl/",
+      "partnerLogo": "mobilization-logo-200x200.png"
+  },
+  {
+      "partnerName": "JavaDay Minsk",
+      "partnerUrl": "http://javaday.by/",
+      "partnerLogo": "java-day-logo-200x200.png"
+  },
+  {
+      "partnerName": "Poznań Android Developer Group",
+      "partnerUrl": "http://www.meetup.com/Poznan-Android-Developer-Group/",
+      "partnerLogo": "adg-logo-200x200.png"
+  },
+  {
+      "partnerName": "GDG Lviv",
+      "partnerUrl": "https://devfest.gdg.org.ua/",
+      "partnerLogo": "gdg-lviv-logo-200x200.png"
+  },
+  {
+      "partnerName": "Warsaw Java User Group",
+      "partnerUrl": "http://warszawa.jug.pl/",
+      "partnerLogo": "wjug-logo-200x200.png"
+  },
+  {
+      "partnerName": "TouK",
+      "partnerUrl": "https://touk.pl/",
+      "partnerLogo": "touk-logo-200x200.png"
+  },
+  {
+      "partnerName": "GDG Kraków",
+      "partnerUrl": "https://plus.google.com/u/0/+GDGKrakowPlus/posts",
+      "partnerLogo": "gdg-krakow-logo-200x200.png"
+  },
+  {
+      "partnerName": "Hackerspace Kraków",
+      "partnerUrl": "http://hackerspace-krk.pl/",
+      "partnerLogo": "hackerspace-krakow-logo-200x200.png"
+  },
+  {
+      "partnerName": "Android Developers Backstage",
+      "partnerUrl": "http://www.adbkrk.pl/",
+      "partnerLogo": "adb-logo-200x200.png"
+  },
+  {
+      "partnerName": "Polish Java User Group",
+      "partnerUrl": "http://www.java.pl/",
+      "partnerLogo": "pjug-logo-200x200.png"
+  },
+  {
+      "partnerName": "Hackathon Lovers",
+      "partnerUrl": "http://hackathonlovers.com/",
+      "partnerLogo": "hackathon-lovers-logo-200x200.png"
+  },
+  {
+      "partnerName": "GDG DevFest Ukraine",
+      "partnerUrl": "http://devfest.gdg.org.ua/",
+      "partnerLogo": "gdg-devfest-ukraine-logo-200x200.png"
+  },
+  {
+      "partnerName": "Mobile Warsaw",
+      "partnerUrl": "http://www.meetup.com/Mobile-Warsaw/",
+      "partnerLogo": "mobile-warsaw-logo-200x200.png"
+  },
+  {
+      "partnerName": "Mobile Central Europe",
+      "partnerUrl": "http://mceconf.com/",
+      "partnerLogo": "mce-logo-200x200.png"
+  },
+  {
+      "partnerName": "GDG Dnipropetrovs'k",
+      "partnerUrl": "https://plus.google.com/116033068768596939209/posts",
+      "partnerLogo": "gdg-dnipropetrovsk-logo-200x200.png"
+  }
+]

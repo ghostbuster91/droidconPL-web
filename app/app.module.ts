@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SpeakersService } from './speakers/speakers.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PartnersComponent } from './partners/partners.component';
+import { PartnersService } from './partners/partners.service';
 
 import { routing } from './app.routing';
 
@@ -24,9 +26,10 @@ import { routing } from './app.routing';
     HomeComponent,
     FooterComponent,
     SpeakersComponent,
-    NavbarComponent
+    NavbarComponent,
+    PartnersComponent
   ],
-  providers: [ SpeakersService ],
+  providers: [ SpeakersService, PartnersService ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
