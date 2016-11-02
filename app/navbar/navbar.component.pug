@@ -6,24 +6,25 @@ nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
     #navbarResponsive.collapse.navbar-toggleable-md
       ul.nav.navbar-nav
         li.nav-item.dropdown
-          a#responsiveNavbarDropdown.nav-link([routerLink]="['']", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Home
+          a#responsiveNavbarDropdown.nav-link(href="" data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Home
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            a.dropdown-item(href="#about") About
-            a.dropdown-item([routerLink]="['']") Recap
-            a.dropdown-item([routerLink]="['']") Partners
+            a.dropdown-item([routerLink]="['']" fragment="about") About
+            a.dropdown-item([routerLink]="['']" fragment="recaption") Recap
+            a.dropdown-item([routerLink]="['']" fragment="partners") Partners
+            //- a.dropdown-item([routerLink]="['']" fragment="app") Get the app
         li.nav-item.dropdown
-          a#responsiveNavbarDropdown.nav-link(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Conference
+          a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Conference
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            a.dropdown-item(href='#') Call 4 Papers
-            a.dropdown-item(href='#') Tickets
+            a.dropdown-item(href='https://goo.gl/forms/jRwLWmej0aflhVII2' target="_blank") Call 4 Papers
+            a.dropdown-item(href='https://goo.gl/eyw7uF' target="_blank") Tickets
             a.dropdown-item([routerLink]="['speakers']") Speakers
-            a.dropdown-item(href='#') Sponsors
+            a.dropdown-item([routerLink]="['']" fragment="sponsors") Sponsors
         li.nav-item.dropdown
-          a#responsiveNavbarDropdown.nav-link(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
+          a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            a.dropdown-item(href='#') Code of Conduct
-            a.dropdown-item(href='#') Travel Information
-            a.dropdown-item(href='#') About us
+            a.dropdown-item([routerLink]="['coc']") Code of Conduct
+            a.dropdown-item([routerLink]="['travel']") Travel Information
+            a.dropdown-item([routerLink]="['about-us']") About us
         li.nav-item
           a.nav-link([routerLink]="['']" fragment="contact") Contact
         li.nav-item.hidden-md-down
