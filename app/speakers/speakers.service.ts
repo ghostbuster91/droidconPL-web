@@ -8,4 +8,8 @@ export class SpeakersService{
     return require('../../model/speakers.json');
   }
 
+  getSpeakersPreview() : string[] {
+    return require('../../model/speakers.json').slice(0,3);
+  }
+
 }
