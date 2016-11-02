@@ -13,18 +13,18 @@ var $ = require('jquery');
 })
 
 export class AppComponent {
-  constructor(router: Router) {
-    router.events.subscribe(s => {
-      if (s instanceof NavigationEnd) {
-        const tree = router.parseUrl(router.url);
-        if (tree.fragment) {
-          // you can use DomAdapter
-          const element = document.querySelector("#" + tree.fragment);
-          if (element) { element.scrollIntoView(element); }
-        }
-      } else {
-        window.scrollTo(0, 0);
-      }
-    });
-  }
+  // constructor(router: Router) {
+  //   router.events.subscribe(s => {
+  //     if (s instanceof NavigationEnd) {
+  //       const tree = router.parseUrl(router.url);
+  //       if (tree.fragment) {
+  //         // you can use DomAdapter
+  //         const element = document.querySelector("#" + tree.fragment);
+  //         // if (element) { element.scrollIntoView(element); }
+  //       }
+  //     } else {
+  //       window.scrollTo(0, 0);
+  //     }
+  //   });
+  // }
 }

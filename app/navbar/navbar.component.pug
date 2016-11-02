@@ -1,24 +1,24 @@
 nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
   button.navbar-toggler.hidden-lg-up(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-  a.navbar-logo.hidden-lg-up([routerLink]="['']")
+  a.navbar-logo.hidden-lg-up.scrollable([routerLink]="['']" fragment="top")
     img([src]="navbarLogo")
   .container.mobile-container
     #navbarResponsive.collapse.navbar-toggleable-md
       ul.nav.navbar-nav
-        li.nav-item.dropdown
-          a#responsiveNavbarDropdown.nav-link(href="" data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Home
+        li.nav-item.dropdown.open
+          a#responsiveNavbarDropdown.nav-link(href="" data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Home
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            a.dropdown-item([routerLink]="['']" fragment="about") About
-            a.dropdown-item([routerLink]="['']" fragment="recaption") Recap
-            a.dropdown-item([routerLink]="['']" fragment="partners") Partners
+            a.dropdown-item.scrollable([routerLink]="['']" fragment="about") About
+            a.dropdown-item.scrollable([routerLink]="['']" fragment="recaption") Recap
+            a.dropdown-item.scrollable([routerLink]="['']" fragment="partners") Partners
             //- a.dropdown-item([routerLink]="['']" fragment="app") Get the app
         li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Conference
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
             a.dropdown-item(href='https://goo.gl/forms/jRwLWmej0aflhVII2' target="_blank") Call 4 Papers
             a.dropdown-item(href='https://goo.gl/eyw7uF' target="_blank") Tickets
-            a.dropdown-item([routerLink]="['speakers']") Speakers
-            a.dropdown-item([routerLink]="['']" fragment="sponsors") Sponsors
+            a.dropdown-item.scrollable([routerLink]="['speakers']") Speakers
+            a.dropdown-item.scrollable([routerLink]="['']" fragment="sponsors") Sponsors
         li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
           .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
@@ -26,7 +26,7 @@ nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
             a.dropdown-item([routerLink]="['travel']") Travel Information
             a.dropdown-item([routerLink]="['about-us']") About us
         li.nav-item
-          a.nav-link([routerLink]="['']" fragment="contact") Contact
+          a.nav-link.scrollable([routerLink]="['']" fragment="contact") Contact
         li.nav-item.hidden-md-down
-          a.navbar-logo.nav-link([routerLink]="['']")
+          a.navbar-logo.nav-link.scrollable([routerLink]="['']" fragment="top")
             img([src]="navbarLogo")

@@ -24,4 +24,24 @@ $(document).ready(function() {
         });
     });
 
+    $("body").on('click', 'a.scrollable', function(e: any) {
+      // target element id
+      var id = window.location.hash;
+
+      // target element
+      var $id = $(id);
+      if ($id.length === 0) {
+        return;
+      }
+
+      // wyłączenie normalnej hashowej nawigacji
+      // e.preventDefault();
+
+      // top relatywnie do dokumentu
+      var pos = $(id).offset().top - 100;
+
+      // animacja
+      $('body, html').animate({scrollTop: pos});
+    });
+
 });
