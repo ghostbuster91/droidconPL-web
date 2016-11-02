@@ -4,21 +4,27 @@ import { NgbModule }      from '@ng-bootstrap/ng-bootstrap';
 import { InlineSVGModule } from 'ng2-inline-svg';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SpeakersService } from './speakers/speakers.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
+import { routing } from './app.routing';
 
 @NgModule({
   imports:      [
     BrowserModule,
     NgbModule.forRoot(),
-    InlineSVGModule
+    InlineSVGModule,
+    routing
   ],
   declarations: [
     AppComponent,
+    HomeComponent,
     FooterComponent,
-    SpeakersComponent
+    SpeakersComponent,
+    NavbarComponent
   ],
   providers: [ SpeakersService ],
   bootstrap:    [ AppComponent ]

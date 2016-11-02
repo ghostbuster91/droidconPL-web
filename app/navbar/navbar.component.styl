@@ -1,0 +1,83 @@
+@import "../_variables.styl";
+
+navMobileHeight = 55px
+navHeight = 90px
+dropdownHeight = 65px
+
+nav#customNav
+  background-color: colWhite
+  min-height: navMobileHeight
+  font-family: "nerisblack", Helvetica, Arial, sans-serif
+  font-size: 24px
+  padding: 0
+  .mobile-container
+    padding: 0
+    width: 100%
+  .nav-link
+    padding: 10px 0 10px 20px
+    color: colDark
+    &:active, &:focus, &:hover
+      color: colGreen
+  .dropdown-menu
+    width: 100%
+    border: none
+    border-radius: 0
+    background-color: colGreen
+    margin: 0
+    text-align: center
+    .dropdown-item
+      display: inline-block
+      min-width: 100px
+      width: auto
+      font-family: "nerissemibold", Helvetica, Arial, sans-serif
+      font-size: 18px
+      padding: 5px 20px
+      color: colDark
+      &:active, &:focus, &:hover
+        background-color: transparent
+        font-family: "nerisblack", Helvetica, Arial, sans-serif
+  button.navbar-toggler
+    margin: 17px
+    border: none
+    &:focus
+      outline: none
+  a.navbar-logo
+    img
+      float: right
+      height: 70px
+      vertical-align: top
+      margin-right: 10px
+      margin-top: 5px
+
+  @media lg
+    height: navHeight
+    font-size: 30px
+    .dropdown-menu
+      position: fixed
+      top: navHeight
+      height: dropdownHeight
+      line-height: dropdownHeight
+      padding: 0
+      .dropdown-item
+        font-size: 24px
+        padding: 0 35px
+    .nav-link
+      padding: 0
+      line-height: navHeight
+    .nav-item
+      padding: 0 35px
+    a.navbar-logo
+      img
+        margin: 5px 0
+        padding: 0 10px
+        height: 80px
+
+// center menu items
+@media lg
+  .navbar
+    .navbar-nav
+      display: inline-block
+      float: none
+      vertical-align: top
+    .collapse
+      text-align: center

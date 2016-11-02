@@ -1,0 +1,31 @@
+nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
+  button.navbar-toggler.hidden-lg-up(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+  a.navbar-logo.hidden-lg-up([routerLink]="['']")
+    img([src]="navbarLogo")
+  .container.mobile-container
+    #navbarResponsive.collapse.navbar-toggleable-md
+      ul.nav.navbar-nav
+        li.nav-item.dropdown
+          a#responsiveNavbarDropdown.nav-link([routerLink]="['']", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Home
+          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
+            a.dropdown-item(href="#about") About
+            a.dropdown-item([routerLink]="['']") Recap
+            a.dropdown-item([routerLink]="['']") Partners
+        li.nav-item.dropdown
+          a#responsiveNavbarDropdown.nav-link(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Conference
+          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
+            a.dropdown-item(href='#') Call 4 Papers
+            a.dropdown-item(href='#') Tickets
+            a.dropdown-item([routerLink]="['speakers']") Speakers
+            a.dropdown-item(href='#') Sponsors
+        li.nav-item.dropdown
+          a#responsiveNavbarDropdown.nav-link(href='http://example.com', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
+          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
+            a.dropdown-item(href='#') Code of Conduct
+            a.dropdown-item(href='#') Travel Information
+            a.dropdown-item(href='#') About us
+        li.nav-item
+          a.nav-link([routerLink]="['']" fragment="contact") Contact
+        li.nav-item.hidden-md-down
+          a.navbar-logo.nav-link([routerLink]="['']")
+            img([src]="navbarLogo")
