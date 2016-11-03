@@ -55,7 +55,16 @@ module.exports = {
           'file?hash=sha512&digest=hex&name=assets/photos/[name].[ext]',
           'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ],
-        include: helpers.root('assets/photos')
+        include: helpers.root('assets/photos'),
+        exclude: helpers.root('assets/photos/speakers')
+      },
+      {
+        test: /\.(jpe?g|png)$/i,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=assets/photos/speakers/[name].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ],
+        include: helpers.root('assets/photos/speakers')
       },
       {
         test: /\.(jpe?g|png)$/i,

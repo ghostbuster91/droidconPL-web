@@ -27,6 +27,9 @@ $(document).ready(function() {
     $("body").on('click', 'a.scrollable', function(e: any) {
       // target element id
       var id = window.location.hash;
+      if ( id.indexOf("#/") >= 0 ) {
+        id = id.slice(2);
+      };
 
       // target element
       var $id = $(id);
