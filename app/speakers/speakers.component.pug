@@ -7,8 +7,8 @@ section#speakers.white-background
       .col-xs-12.col-md-4(*ngFor="let speaker of speakers")
         .speaker-bracket
           img.speaker-photo((click)="setSpeaker(speaker)", src="{{speakerImg(speaker.imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
-          span.speaker-name {{speaker.firstName}} {{speaker.lastName}}
-          span.speaker-title {{speaker.websiteTitle}}
+          span.speaker-name((click)="setSpeaker(speaker)", data-toggle='modal', data-target='#speakerModal') {{speaker.firstName}} {{speaker.lastName}}
+          span.speaker-title((click)="setSpeaker(speaker)", data-toggle='modal', data-target='#speakerModal') {{speaker.websiteTitle}}
     .row
       .col-xs-12
         p.section-paragraph

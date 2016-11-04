@@ -6,6 +6,15 @@ section#speakers
   @media lg
     padding-top: 200px
 
+  .speaker-photo
+  .speaker-name
+  .speaker-title
+    &:hover
+      cursor: pointer
+  .speaker-photo
+    &:hover
+      opacity: 0.6
+
 section#speakers-preview, section#speakers
   .speaker-bracket
     text-align: center
@@ -59,10 +68,7 @@ section#speakers-preview, section#speakers
   display: block
   margin: 10px auto
   box-shadow: none
-  transition: all 0.2s
-  &:hover
-    cursor: pointer
-    box-shadow: 0 0 0 5px colGreen
+  transition: all 0.3s
   @media lg
     height: 250px
     margin: 15px auto
@@ -72,3 +78,4 @@ section#speakers-preview, section#speakers
 .speaker-title
   display: block
   font-size: 20px
+  height: 30px
