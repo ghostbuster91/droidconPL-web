@@ -5,29 +5,45 @@ nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
   .container.mobile-container
     #navbarResponsive.collapse.navbar-toggleable-md
       ul.nav.navbar-nav
-        li.nav-item.dropdown.open
+        li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="" data-toggle='dropdown', aria-haspopup='true', aria-expanded='true') Home
-          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="about") About
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="recaption") Recap
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="partners") Partners
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="call-4-paper") Call 4 Papers
+          .dropdown-menu.hidden-lg-up(aria-labelledby='responsiveNavbarDropdown' data-toggle='collapse', data-target='#navbarResponsive')
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="about") About
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="recaption") Recap
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="partners") Partners
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="call-4-paper") Call 4 Papers
+          //- Large screens
+          .dropdown-menu.hidden-md-down
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="about") About
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="recaption") Recap
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="partners") Partners
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="call-4-paper") Call 4 Papers
             //- a.dropdown-item([routerLink]="['']" fragment="app") Get the app
         li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Conference
-          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
-            //- a.dropdown-item(href='https://goo.gl/forms/jRwLWmej0aflhVII2' target="_blank") Call 4 Papers
-            a.dropdown-item(href='https://goo.gl/eyw7uF' target="_blank") Tickets
+          .dropdown-menu.hidden-lg-up(aria-labelledby='responsiveNavbarDropdown' data-toggle='collapse', data-target='#navbarResponsive')
+            a.dropdown-item(href="https://goo.gl/eyw7uF" target="_blank") Tickets
             a.dropdown-item.scrollable([routerLink]="['speakers']") Speakers
             a.dropdown-item.scrollable([routerLink]="['']" fragment="sponsors") Sponsors
+          //- Large screens
+          .dropdown-menu.hidden-md-down
+            a.dropdown-item(href="https://goo.gl/eyw7uF" target="_blank") Tickets
+            a.dropdown-item.scrollable([routerLink]="['speakers']", [routerLinkActive]="['is-active']") Speakers
+            a.dropdown-item.scrollable([routerLink]="['']" fragment="sponsors", [routerLinkActive]="['is-active']") Sponsors
         li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
-          .dropdown-menu(aria-labelledby='responsiveNavbarDropdown')
+          .dropdown-menu.hidden-lg-up(aria-labelledby='responsiveNavbarDropdown' data-toggle='collapse', data-target='#navbarResponsive')
             a.dropdown-item([routerLink]="['codeOfConduct']") Code of Conduct
+          //- Large screens
+          .dropdown-menu.hidden-md-down
+            a.dropdown-item([routerLink]="['codeOfConduct']", [routerLinkActive]="['is-active']") Code of Conduct
             //- a.dropdown-item([routerLink]="['travel']") Travel Information
             //- a.dropdown-item([routerLink]="['about-us']") About us
-        li.nav-item
-          a.nav-link.scrollable([routerLink]="['']" fragment="contact") Contact
+        li.nav-item.hidden-lg-up(aria-labelledby='responsiveNavbarDropdown' data-toggle='collapse', data-target='#navbarResponsive')
+          a.nav-link.scrollable([routerLink]="['']", fragment="contact") Contact
+        //- Large screens
+        li.nav-item.hidden-md-down
+          a.nav-link.scrollable([routerLink]="['']", fragment="contact", [routerLinkActive]="['is-active']") Contact
         li.nav-item.hidden-md-down
           a.navbar-logo.nav-link.scrollable([routerLink]="['']" fragment="top")
             img([src]="navbarLogo")

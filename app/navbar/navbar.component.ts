@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 
 export class NavbarComponent {
   navbarLogo = require('../../assets/images/droidcon-logo-simple.png');
+
+
 }

@@ -2,13 +2,13 @@
 
 navMobileHeight = 55px
 navHeight = 90px
-dropdownHeight = 65px
+dropdownHeight = 50px
 
 nav#customNav
   background-color: colWhite
   min-height: navMobileHeight
   font-family: "nerisblack", Helvetica, Arial, sans-serif
-  font-size: 24px
+  font-size: 22px
   padding: 0
   .mobile-container
     padding: 0
@@ -51,7 +51,7 @@ nav#customNav
 
   @media lg
     height: navHeight
-    font-size: 30px
+    font-size: 25px
     .dropdown-menu
       position: fixed
       top: navHeight
@@ -59,13 +59,14 @@ nav#customNav
       line-height: dropdownHeight
       padding: 0
       .dropdown-item
-        font-size: 24px
+        font-size: 20px
         padding: 0 35px
     .nav-link
       padding: 0
       line-height: navHeight
     .nav-item
       padding: 0 35px
+      margin: 0
     a.navbar-logo
       img
         margin: 5px 0
@@ -81,3 +82,13 @@ nav#customNav
       vertical-align: top
     .collapse
       text-align: center
+
+// Hover on menu makes submenu visible
+@media screen and (min-width: 768px)
+  .dropdown:hover
+    cursor: pointer
+    & > .dropdown-menu
+      display: block
+      z-index: 1005
+    & > #responsiveNavbarDropdown.nav-link
+      color: colGreen
