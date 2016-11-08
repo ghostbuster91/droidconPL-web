@@ -14,7 +14,7 @@ section#sessions.white-background
             span.talk-description {{ session.sessionDescription }}
             span.talk-length
               | Talk length:
-              strong {{ session.sessionLength }} min.
+              strong  {{ session.sessionLength }} min.
           .col-xs-12.col-md-4.talk-speaker
             img.speaker-photo((click)="setSpeaker(speakers[ session.speakerId - 1 ])", src="{{speakerImg(speakers[ session.speakerId - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
             span.speaker-name {{ speakers[ session.speakerId - 1 ].firstName }} {{ speakers[ session.speakerId - 1 ].lastName }}
