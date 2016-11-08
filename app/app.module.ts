@@ -14,6 +14,7 @@ import { PartnersService } from './partners/partners.service';
 import { CodeOfConductComponent } from './otherViews/codeOfConduct.component';
 import { SessionsComponent } from './sessions/sessions.component';
 import { SessionsService } from './sessions/sessions.service';
+import { SpeakerModalComponent } from './otherViews/speakerModal.component';
 
 import { routing } from './app.routing';
 
@@ -32,7 +33,8 @@ import { routing } from './app.routing';
     NavbarComponent,
     PartnersComponent,
     CodeOfConductComponent,
-    SessionsComponent
+    SessionsComponent,
+    SpeakerModalComponent
   ],
   providers: [ SpeakersService, PartnersService, SessionsService ],
   bootstrap:    [ AppComponent ]

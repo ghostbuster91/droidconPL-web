@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { SpeakersService } from './speakers.service';
+import { SpeakerModalComponent } from '../otherViews/speakerModal.component';
 
 @Component({
   selector: 'speakers',
@@ -8,16 +9,16 @@ import { SpeakersService } from './speakers.service';
 })
 
 export class SpeakersComponent {
-  imgSrc: string = '../../assets/photos/speakers/';
+  // imgSrc: string = '../../assets/photos/speakers/';
   speakers: string[] = [];
   modal: string[] = [];
-
-  websiteIcon: string = require('../../assets/images/website.svg');
-  facebookIcon: string = require('../../assets/images/facebook.svg');
-  twitterIcon: string = require('../../assets/images/twitter.svg');
-  githubIcon: string = require('../../assets/images/github.svg');
-  linkedInIcon: string = require('../../assets/images/linkedin.svg');
-  googlePlusIcon: string = require('../../assets/images/google+.svg');
+  //
+  // websiteIcon: string = require('../../assets/images/website.svg');
+  // facebookIcon: string = require('../../assets/images/facebook.svg');
+  // twitterIcon: string = require('../../assets/images/twitter.svg');
+  // githubIcon: string = require('../../assets/images/github.svg');
+  // linkedInIcon: string = require('../../assets/images/linkedin.svg');
+  // googlePlusIcon: string = require('../../assets/images/google+.svg');
 
   constructor(speakersService : SpeakersService) {
     this.speakers = speakersService.getSpeakers();

@@ -25,36 +25,4 @@ section#sessions.white-background
         p.section-paragraph
           | More sessions will be available soon!
 
-#speakerModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='speakerModalLabel', aria-hidden='true')
-  .modal-dialog(role='document')
-    .modal-content
-      .modal-header
-        button.close(type='button', data-dismiss='modal', aria-label='Close')
-          span(aria-hidden='true') ×
-        h4#speakerModalLabel.modal-title
-          img.speaker-photo(src="{{imgSrc}}{{modal.imageUrl}}")
-          span.speaker-name {{modal.firstName}} {{modal.lastName}}
-          span.speaker-title {{modal.websiteTitle}}
-      .modal-body
-        | {{ modal.bio }}
-      .modal-footer
-        .container
-          .row.row-centered
-            .col-xs-3.col-centered(*ngIf="modal.websiteLink")
-              a.social-link(href="{{modal.websiteLink}}" target="_blank")
-                .social-icon([inlineSVG]="websiteIcon")
-            .col-xs-3.col-centered(*ngIf="modal.facebookLink")
-              a.social-link(href="{{modal.facebookLink}}" target="_blank")
-                .social-icon([inlineSVG]="facebookIcon")
-            .col-xs-3.col-centered(*ngIf="modal.twitterHandler")
-              a.social-link(href="{{modal.twitterHandler}}" target="_blank")
-                .social-icon([inlineSVG]="twitterIcon")
-            .col-xs-3.col-centered(*ngIf="modal.githubLink")
-              a.social-link(href="{{modal.githubLink}}" target="_blank")
-                .social-icon([inlineSVG]="githubIcon")
-            .col-xs-3.col-centered(*ngIf="modal.linkedIn")
-              a.social-link(href="{{modal.linkedIn}}" target="_blank")
-                .social-icon([inlineSVG]="linkedInIcon")
-            .col-xs-3.col-centered(*ngIf="modal.googlePlus")
-              a.social-link(href="{{modal.googlePlus}}" target="_blank")
-                .social-icon([inlineSVG]="googlePlusIcon")
+speaker-modal([modal]="modal")
