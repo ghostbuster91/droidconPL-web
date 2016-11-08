@@ -1,18 +1,29 @@
 [
   {
+    "sessionId": 1,
     "speakerId": 1,
     "sessionType": "Talk",
-    "sessionTitle": "Testing title",
-    "sessionDescription": "Long description",
-    "sessionTags": ["Tag 1", "Tag 2", "Tag 3"],
-    "sessionLength": 30
+    "sessionTitle": "MVVM architecture with the data binding library",
+    "sessionDescription": "Model-View-Presenter (MVP) architecture is widely used in today’s Android apps to separate the view from the view logic and the model by introducing a presenter. Model-View-ViewModel (MVVM) is quite similar to MVP, with the view model acting as an enhanced presenter, using a data binder to keep the view model and the view in sync. By binding the view to view model properties, the data binder can handle view updates, without the need to manually set changed data back to the view (e.g. no more setText() or setVisibility() on a TextView). As with the presenter in MVP, the view model can easily be unit tested. This talk gives an introduction to the MVVM architecture and how it can be used on Android with the data binding library.",
+    "sessionTags": ["Raw coding in Java!"],
+    "sessionLength": 45
   },
   {
+    "sessionId": 2,
     "speakerId": 2,
-    "sessionType": "Talk 2",
-    "sessionTitle": "Testing title 2",
-    "sessionDescription": "Long description",
-    "sessionTags": ["Tag 1", "Tag 4", "Tag 3"],
+    "sessionType": "Talk",
+    "sessionTitle": "Android Wear Essentials — Improve your Android skills building watch faces",
+    "sessionDescription": "After developing my last project for Android Wear, I realized it, somehow, made me a better Android developer.\nDuring this talk, I'll explain the nuts and bolts of developing watch faces and apps for Android wear: from the platform constraints to describing step-by-step how to build a beautiful watch face without embedding any images.\nEver thought radians, shaders, radial gradients, canvas, paths, xfer modes, shadows, quadratic curves were difficult concepts? \nThese are pretty easy actually, and you'll be able to use those in your Android applications too.",
+    "sessionTags": ["IoT"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 3,
+    "speakerId": 3,
+    "sessionType": "Talk",
+    "sessionTitle": "I’ve been doing some syncing…",
+    "sessionDescription": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
+    "sessionTags": ["Raw coding in Java!", "Architecture"],
     "sessionLength": 45
   }
 ]
