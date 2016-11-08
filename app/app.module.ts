@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PartnersComponent } from './partners/partners.component';
 import { PartnersService } from './partners/partners.service';
 import { CodeOfConductComponent } from './otherViews/codeOfConduct.component';
+import { SessionsComponent } from './sessions/sessions.component';
 
 import { routing } from './app.routing';
 
@@ -29,7 +30,8 @@ import { routing } from './app.routing';
     SpeakersComponent,
     NavbarComponent,
     PartnersComponent,
-    CodeOfConductComponent
+    CodeOfConductComponent,
+    SessionsComponent
   ],
   providers: [ SpeakersService, PartnersService ],
   bootstrap:    [ AppComponent ]
