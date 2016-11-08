@@ -1,0 +1,18 @@
+[
+  {
+    "speakerId": 1,
+    "sessionType": "Talk",
+    "sessionTitle": "Testing title",
+    "sessionDescription": "Long description",
+    "sessionTags": ["Tag 1", "Tag 2", "Tag 3"],
+    "sessionLength": 30
+  },
+  {
+    "speakerId": 2,
+    "sessionType": "Talk 2",
+    "sessionTitle": "Testing title 2",
+    "sessionDescription": "Long description",
+    "sessionTags": ["Tag 1", "Tag 4", "Tag 3"],
+    "sessionLength": 45
+  }
+]
