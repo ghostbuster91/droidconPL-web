@@ -11,7 +11,7 @@ section#sessions.white-background
             h3.talk-title {{ session.sessionTitle }}
             .talk-tags
               .talk-tag(*ngFor="let tag of session.sessionTags") {{ tag }}
-            span.talk-description {{ session.sessionDescription }}
+            span.talk-description([innerHTML]="session.sessionDescription")
             span.talk-length
               | Talk length:
               strong  {{ session.sessionLength }} min.
