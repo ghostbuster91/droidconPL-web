@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { Router, NavigationEnd } from '@angular/router';
 var $ = require('jquery');
+require("../assets/images/droidcon-krakow-logo-bkg.png");
 
 @Component({
   selector: 'my-app',
