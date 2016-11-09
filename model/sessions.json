@@ -13,7 +13,7 @@
     "speakerId": 2,
     "sessionType": "Talk",
     "sessionTitle": "Android Wear Essentials — Improve your Android skills building watch faces",
-    "sessionDescription": "After developing my last project for Android Wear, I realized it, somehow, made me a better Android developer.\nDuring this talk, I'll explain the nuts and bolts of developing watch faces and apps for Android wear: from the platform constraints to describing step-by-step how to build a beautiful watch face without embedding any images.\nEver thought radians, shaders, radial gradients, canvas, paths, xfer modes, shadows, quadratic curves were difficult concepts? \nThese are pretty easy actually, and you'll be able to use those in your Android applications too.",
+    "sessionDescription": "After developing my last project for Android Wear, I realized it, somehow, made me a better Android developer.<br />During this talk, I'll explain the nuts and bolts of developing watch faces and apps for Android wear: from the platform constraints to describing step-by-step how to build a beautiful watch face without embedding any images.<br />Ever thought radians, shaders, radial gradients, canvas, paths, xfer modes, shadows, quadratic curves were difficult concepts?<br />These are pretty easy actually, and you'll be able to use those in your Android applications too.",
     "sessionTags": ["IoT"],
     "sessionLength": 45
   },
@@ -22,8 +22,143 @@
     "speakerId": 3,
     "sessionType": "Talk",
     "sessionTitle": "I’ve been doing some syncing…",
-    "sessionDescription": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
+    "sessionDescription": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?<br />What about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?<br />Android offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
     "sessionTags": ["Raw coding in Java!", "Architecture"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 4,
+    "speakerId": 4,
+    "sessionType": "Talk",
+    "sessionTitle": "Accessibility For Android",
+    "sessionDescription": "Accessibility is a very important step to make sure that your app reaches everyone in an easy and fun way to use. Good accessibility support means much more than just making sure the app supports screen readers, different fonts sizes and good contrast ratios. It is a learning process, and one in which we ourselves still have much to learn and explore.",
+    "sessionTags": ["Design"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 5,
+    "speakerId": 5,
+    "sessionType": "Talk",
+    "sessionTitle": "Toothpick, the better Dagger?",
+    "sessionDescription": "Why Another Dependency Injection Framework?<br />Everyone is happy with Dagger, aren't they?<br />This session introduce Toothpick that was created this year and is already used by millions of users as driven a lot by engineers at Groupon.<br />What was their need? What's wrong with Dagger?<br />Toothpick was designed to bring goodies from Guice to modern mobile world. <br />It focuses on scopes and unit testing without loosing performance as Roboguice did.",
+    "sessionTags": ["Testing", "Libraries", "Raw coding in Java!"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 6,
+    "speakerId": 6,
+    "sessionType": "Talk",
+    "sessionTitle": "I just hacked your app!",
+    "sessionDescription": "Android security is nowhere near where it should be. I have been able to hack and get sensitive information from a few different apps and I’m just an amateur hacker at best.<br />Whether it’s because we are exposing information when making HTTP requests to our backend servers or because we’re simply storing things we shouldn’t in our apps, it’s easy to forget mobile devices aren’t as safe as we think they are.<br />In this session we will explore a number of ways an Android app can be exploited and most importantly methods that we can use to avoid these attacks.<br />We will finish by looking at common techniques that will help you protect sensitive information within your application by adding tampering detection and making sure every external communication request is made securely.",
+    "sessionTags": ["Back-end", "Raw coding in Java!", "Security"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 7,
+    "speakerId": 7,
+    "sessionType": "Talk",
+    "sessionTitle": "Reactive programming on Android - why and how ",
+    "sessionDescription": "Reactive is becoming more and more used on Android, but is it right for you? This talk sheds some light on why reactive programming is becoming so popular and what are the pros and cons of using it. I will also explore other options and compare it all to the normal Android framework.",
+    "sessionTags": ["Libraries", "Raw coding in Java!"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 8,
+    "speakerId": 8,
+    "sessionType": "Talk",
+    "sessionTitle": "Robust unit testing in Android",
+    "sessionDescription": "Talk will: <br />- provide answers to some common problems with writing unit tests.<br />- describe shortly clean architecture and why it can help us writing unit tests.<br />- contain live coding samples showing how to make your unit test more concise, and readable.<br />- show how to use some different frameworks, libraries and languages in unit tests.<br />- use java, kotlin and groovy.",
+    "sessionTags": ["Testing", "Design", "Libraries", "Raw coding in Java!", "Raw coding in Kotlin", "Groovy"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 9,
+    "speakerId": 9,
+    "sessionType": "Talk",
+    "sessionTitle": "Optimizing Apps for Better Performance",
+    "sessionDescription": "Performance matters to users, so it must matter to you. In this session, I will talk about how to identify and fix performance bottlenecks and using profiling tools.",
+    "sessionTags": ["Android"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 10,
+    "speakerId": 10,
+    "sessionType": "Talk",
+    "sessionTitle": "Android Mutation Testing",
+    "sessionDescription": "One of the golden standard test coverage techniques is mutation testing. The main idea of mutation testing is to perform byte code modifications (mutations) to original Android app source code and then run app unit tests to check if they are strong enough to fail as a result of these mutations. This session discusses mutation testing techniques, and demonstrates PIT as a powerful mutation testing tool for Android apps with Demos.",
+    "sessionTags": ["Testing", "Software Quality"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 11,
+    "speakerId": 11,
+    "sessionType": "Talk",
+    "sessionTitle": "Making the Most of Your Gradle Builds",
+    "sessionDescription": "Nowadays, Gradle is undoubtedly The Build Tool in Android development, and a very powerful one. In addition to that, Gradle keeps evolving fast, each new release bringing new features and performance optimizations. However, many of us are using just basic Gradle config and waiting patiently for minutes until our builds run. Can we do better? In this session, we’re going to discuss tips & tricks on getting the most of your Gradle builds and improving your productivity!",
+    "sessionTags": ["Build tools"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 12,
+    "speakerId": 12,
+    "sessionType": "Talk",
+    "sessionTitle": "Clean architecture at scale",
+    "sessionDescription": "Do you remember the good old days of Android development? Life was simple and easy, and you could get away with writing whatever you were able to compile. Those times are gone now... Mobile apps have grown to sizes that would scare enterprise developers from a decade ago, and you still have to provide a smooth and slick user experience!<br />This complexity can quickly get out of hand unless we think carefully about the way we architecture our apps. We might get caught in an unmaintainable code that forces us to spend more time patching and fixing than developing new features.<br />But fear not, we have found our saviour: Clean Architecture! It’s a set of best practices that help to structure code in a layered way, with the ability to test and replace each layer as needed. Could this be the silver bullet that Android needs?<br />I was given the opportunity to start coding Bumble: a greenfield project centred on user experience - no performance sacrifice was acceptable. I knew it was the right place to apply this kind of architecture. Over 1 million downloads later I want to share my story. I want to show you how good app architecture can help you to achieve a code which is readable, modular and extendable.",
+    "sessionTags": ["Architecture"],
+    "sessionLength": 30
+  },
+  {
+    "sessionId": 13,
+    "speakerId": 13,
+    "sessionType": "Talk",
+    "sessionTitle": "Writing truly testable code",
+    "sessionDescription": "Many developers understand why testing is so important, but not everyone is writing tests on a daily basis. One of the most common issues is that it’s hard to test a codebase that was not designed to be testable. This talk will cover how to write code that can be tested easily. We will also talk about how to introduce testing to an existing not-test-ready codebase. While things like Android, MVP, Kotlin, Rx will be used in examples, prior knowledge of these technologies is not strictly required. Also, the approach itself is generic enough to be used on any platform or with any language.",
+    "sessionTags": ["Testing", "Architecture", "Android"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 14,
+    "speakerId": 14,
+    "sessionType": "Talk",
+    "sessionTitle": "Deeper insight into Android Espresso library",
+    "sessionDescription": "Talk is devoted to people with any level of expertise. It starts with basics such as library introduction, goes through Espresso usage formulas, components and there are a lot of examples with pre-recorded videos and sample code to them. Examples are a bit more complex in order to pinpoint common misconceptions and problems and explain how to deal with it. Each introduced thing is being inspected - so from basics I will keep moving to more and more complicated things like - test process structure, synchronisation  between UI and Test threads, explanation of idle state and Espresso IdlingResource.",
+    "sessionTags": ["Testing", "Libraries"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 15,
+    "speakerId": 15,
+    "sessionType": "Talk",
+    "sessionTitle": "Use code ​generation to make better apps",
+    "sessionDescription": "Why write code yourself when a computer can do it better. In this talk I will describe what code generation is, where we can use it and how and why we should use it. Some subject in this talk are Annotations and Annotation processing, Dependency Injection and reducing boilerplate code.",
+    "sessionTags": ["Libraries", "Tooling"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 16,
+    "speakerId": 16,
+    "sessionType": "Talk",
+    "sessionTitle": "Keeping it SOLID",
+    "sessionDescription": "Fed up of code that's difficult to refactor? Tired of code smells? Tired of working with messy software architecture? Having personally worked with legacy code on a regular basis, I began to understand how important it is to alleviate these pains. Luckily for you there are five principles of object-orientated design that can help us to craft software that is both easy to maintain and extend, these principles are known together as SOLID.<br />In this talk we'll look at what makes up the SOLID acronym and what each principle means for our code - followed by how we can use these principles to improve both the code we maintain and also code we write in the future. Working with legacy code on the android app at Buffer has given me the opportunities to apply these principles when both refactoring and rewriting parts of the project. From this we'll be looking at real world examples to help us understand how the different aspects of SOLID can be implemented into our own projects to create the same result of a better crafting system.<br />By the end of this talk, we'll be more familiar with the concepts of SOLID and how we can use the approach during development to write more maintainable and extensible code.",
+    "sessionTags": ["Architecture"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 17,
+    "speakerId": 17,
+    "sessionType": "Talk",
+    "sessionTitle": "Feel The Hack; Sensor Networking With Android",
+    "sessionDescription": "We will be discussing sensor networks, senors, hardware and android phones. More importantly this session will be less of a talk, and more of a hands on, audience participatory session where we will take apart phones, build sensors and connect them up. This is live hacking - expect the unexpected.",
+    "sessionTags": ["Raw coding in Java!", "Hardware focused"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 18,
+    "speakerId": 18,
+    "sessionType": "Talk",
+    "sessionTitle": "~Dependency~ Library injection. How to extend any app without single line of code.",
+    "sessionDescription": "It's not about dagger. It's about putting your source code to an Android binary. Yes the compiled dex code! During the presentation I will show in steps how to inject aar to apk without having original source code nor resources. ",
+    "sessionTags": ["Libraries", "Reverse engineering "],
     "sessionLength": 45
   }
 ]
