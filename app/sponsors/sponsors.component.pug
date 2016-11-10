@@ -8,8 +8,9 @@ section#sponsors.white-background
           | Meet our great sponsors who help us make this event great!
     .row.row-centered
       .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of sponsors")
-        .partner-bracket
-          a(href="{{sponsor.sponsorUrl}}" target="_blank" title="{{sponsor.sponsorName}}")
+        .partner-bracket.tooltip
+          span.tooltiptext {{sponsor.sponsorName}}
+          a(href="{{sponsor.sponsorUrl}}" target="_blank")
             img(src="{{sponsorLogo(sponsor.sponsorLogo)}}" alt="{{sponsor.sponsorName}}")
 
     .row

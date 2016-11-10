@@ -11,7 +11,7 @@ body
     margin-bottom: mdFooterHeight
   @media lg
     margin-bottom: lgFooterHeight
-    
+
 footer#footer-section
   position: absolute
   bottom: 0
@@ -43,6 +43,7 @@ footer#footer-section
       margin-top 5px
   .anchor
     color: colWhite
+    transition: all 0.3s
     &:hover
       color: colGreen
       text-decoration: none
@@ -68,6 +69,8 @@ footer#footer-section
     .social-img svg
       height: 30px
       margin: 0 22px
+      .cls-1
+        transition: all 0.3s
       &:hover
         .cls-1
           fill: colGreen
@@ -96,7 +99,7 @@ footer#footer-section
 
   #copyright
     position: absolute
-    bottom: 10px
+    bottom: 20px
     width: 100%
     text-align: center
     font-size: 14px

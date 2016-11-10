@@ -8,8 +8,9 @@ section#partners.light-background
           | Meet our great partners that have been supporting us among the years!
     .row
       .col-xs-6.col-md-4.col-lg-3(*ngFor="let partner of partners")
-        .partner-bracket
-          a(href="{{partner.partnerUrl}}" target="_blank" title="{{partner.partnerName}}")
+        .partner-bracket.tooltip
+          span.tooltiptext {{partner.partnerName}}
+          a(href="{{partner.partnerUrl}}" target="_blank")
             img(src="{{partnerLogo(partner.partnerLogo)}}" alt="{{partner.partnerName}}")
 
     .row

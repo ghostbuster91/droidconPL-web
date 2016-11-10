@@ -16,6 +16,7 @@ nav#customNav
   .nav-link
     padding: 10px 0 10px 20px
     color: colDark
+    transition: all 0.3s
     &:active, &:focus, &:hover
       color: colGreen
   .dropdown-menu
@@ -33,6 +34,7 @@ nav#customNav
       font-size: 18px
       padding: 5px 20px
       color: colDark
+      transition: all 0.3s
       &:active, &:focus, &:hover
         background-color: transparent
         font-family: "nerisblack", Helvetica, Arial, sans-serif
@@ -85,6 +87,8 @@ nav#customNav
 
 // Hover on menu makes submenu visible
 @media screen and (min-width: 768px)
+  .dropdown
+    transition: all 0.3s
   .dropdown:hover
     cursor: pointer
     & > .dropdown-menu
