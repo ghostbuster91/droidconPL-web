@@ -1,0 +1,18 @@
+[
+  {
+    "sponsorId": 1,
+    "sponsorName": "Pluralsight",
+    "sponsorUrl": "https://www.pluralsight.com/",
+    "sponsorLogo": "pluralsight-logo_400x400.png",
+    "sponsorTitle": "Pluralsight",
+    "sponsorPackage": "Bronze"
+  },
+  {
+    "sponsorId": 2,
+    "sponsorName": "Pixplicity",
+    "sponsorUrl": "https://pixplicity.com/",
+    "sponsorLogo": "pixplicity-logo_400x400.png",
+    "sponsorTitle": "Pixplicity",
+    "sponsorPackage": "Travel"
+  }
+]
