@@ -9,6 +9,14 @@
   },
   {
     "sponsorId": 2,
+    "sponsorName": "JetBrains",
+    "sponsorUrl": "https://www.jetbrains.com/",
+    "sponsorLogo": "jetbrains-logo_400x400.png",
+    "sponsorTitle": "JetBrains",
+    "sponsorPackage": "Virtual"
+  },
+  {
+    "sponsorId": 3,
     "sponsorName": "Pixplicity",
     "sponsorUrl": "https://pixplicity.com/",
     "sponsorLogo": "pixplicity-logo_400x400.png",
