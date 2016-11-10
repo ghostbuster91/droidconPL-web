@@ -47,7 +47,7 @@ module.exports = {
           'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ],
         include: helpers.root('assets/images'),
-        exclude: helpers.root('assets/images/partners')
+        exclude: [helpers.root('assets/images/partners'), helpers.root('assets/images/sponsors') ]
       },
       {
         test: /\.(jpe?g|png)$/i,
@@ -73,6 +73,14 @@ module.exports = {
           'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ],
         include: helpers.root('assets/images/partners')
+      },
+      {
+        test: /\.(jpe?g|png)$/i,
+        loaders: [
+          'file?hash=sha512&digest=hex&name=assets/images/sponsors/[name].[ext]',
+          'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        ],
+        include: helpers.root('assets/images/sponsors')
       },
       // { test: /\.svg$/, loader: 'url?limit=65000&mimetype=image/svg+xml&name=public/fonts/[name].[ext]' },
       { test: /\.woff$/, loader: 'url?limit=65000&mimetype=application/font-woff&name=assets/fonts/[name].[ext]' },
