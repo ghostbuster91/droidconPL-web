@@ -15,6 +15,8 @@ import { CodeOfConductComponent } from './otherViews/codeOfConduct.component';
 import { SessionsComponent } from './sessions/sessions.component';
 import { SessionsService } from './sessions/sessions.service';
 import { SpeakerModalComponent } from './otherViews/speakerModal.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
+import { SponsorsService } from './sponsors/sponsors.service';
 
 import { routing } from './app.routing';
 
@@ -34,9 +36,10 @@ import { routing } from './app.routing';
     PartnersComponent,
     CodeOfConductComponent,
     SessionsComponent,
-    SpeakerModalComponent
+    SpeakerModalComponent,
+    SponsorsComponent
   ],
-  providers: [ SpeakersService, PartnersService, SessionsService ],
+  providers: [ SpeakersService, PartnersService, SessionsService, SponsorsService ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

@@ -1,0 +1,24 @@
+section#sponsors.white-background
+  .container
+    .row
+      .col-xs-7.col-sm-6.col-lg-4
+        h1.section-header  Welcome our Sponsors!
+      .col-xs-12
+        p.section-paragraph
+          | Meet our great sponsors who help us make this event great!
+    .row.row-centered
+      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of sponsors")
+        .partner-bracket
+          a(href="{{sponsor.sponsorUrl}}" target="_blank" title="{{sponsor.sponsorName}}")
+            img(src="{{sponsorLogo(sponsor.sponsorLogo)}}" alt="{{sponsor.sponsorName}}")
+
+    .row
+      .col-xs-12
+        p.section-paragraph
+          | Don't miss the opportunity to be present on our event as a Sponsor.
+          | Hundreds of Android developers, designers and otherwise pasionates in this platform
+          | will be there too.
+        p.section-paragraph
+          | Be there with us on 8th - 10th December!
+        p.section-paragraph.button-paragraph
+          a.green-button(href="mailto:contact+sponsor@droidcon.pl") Ask for sponsor opportunities
