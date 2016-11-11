@@ -13,19 +13,23 @@ nav#customNav
   .mobile-container
     padding: 0
     width: 100%
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2)
   .nav-link
     padding: 10px 0 10px 20px
     color: colDark
-    transition: all 0.3s
+    -webkit-transition: all 0.3s ease-in
+    transition: all 0.3s ease-in
     &:active, &:focus, &:hover
       color: colGreen
   .dropdown-menu
     width: 100%
     border: none
     border-radius: 0
-    background-color: colGreen
+    background-color: colLight
     margin: 0
     text-align: center
+    @media lg
+      background-color: colGreen
     .dropdown-item
       display: inline-block
       min-width: 100px
@@ -34,7 +38,8 @@ nav#customNav
       font-size: 18px
       padding: 5px 20px
       color: colDark
-      transition: all 0.3s
+      -webkit-transition: all 0.3s ease-in
+      transition: all 0.3s ease-in
       &:active, &:focus, &:hover
         background-color: transparent
         font-family: "nerisblack", Helvetica, Arial, sans-serif
@@ -88,7 +93,8 @@ nav#customNav
 // Hover on menu makes submenu visible
 @media screen and (min-width: 768px)
   .dropdown
-    transition: all 0.3s
+    -webkit-transition: all 0.3s ease-in
+    transition: all 0.3s ease-in
   .dropdown:hover
     cursor: pointer
     & > .dropdown-menu

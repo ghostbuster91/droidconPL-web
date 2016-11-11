@@ -11,12 +11,14 @@ nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
             a.dropdown-item.scrollable([routerLink]="['']", fragment="about") About
             a.dropdown-item.scrollable([routerLink]="['']", fragment="recaption") Recap
             a.dropdown-item.scrollable([routerLink]="['']", fragment="partners") Partners
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="sponsors") Sponsors
             a.dropdown-item.scrollable([routerLink]="['']", fragment="call-4-paper") Call 4 Papers
           //- Large screens
           .dropdown-menu.hidden-md-down
             a.dropdown-item.scrollable([routerLink]="['']", fragment="about") About
             a.dropdown-item.scrollable([routerLink]="['']", fragment="recaption") Recap
             a.dropdown-item.scrollable([routerLink]="['']", fragment="partners") Partners
+            a.dropdown-item.scrollable([routerLink]="['']", fragment="sponsors") Sponsors
             a.dropdown-item.scrollable([routerLink]="['']", fragment="call-4-paper") Call 4 Papers
             //- a.dropdown-item([routerLink]="['']" fragment="app") Get the app
         li.nav-item.dropdown
@@ -25,13 +27,11 @@ nav#customNav.navbar.navbar-fixed-top.navbar-light.bg-faded
             a.dropdown-item(href="https://goo.gl/eyw7uF" target="_blank") Tickets
             a.dropdown-item.scrollable([routerLink]="['speakers']") Speakers
             a.dropdown-item.scrollable([routerLink]="['sessions']") Sessions
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="sponsors") Sponsors
           //- Large screens
           .dropdown-menu.hidden-md-down
             a.dropdown-item(href="https://goo.gl/eyw7uF" target="_blank") Tickets
             a.dropdown-item.scrollable([routerLink]="['speakers']") Speakers
             a.dropdown-item.scrollable([routerLink]="['sessions']") Sessions
-            a.dropdown-item.scrollable([routerLink]="['']" fragment="sponsors") Sponsors
         li.nav-item.dropdown
           a#responsiveNavbarDropdown.nav-link(href="", data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Info
           .dropdown-menu.hidden-lg-up(aria-labelledby='responsiveNavbarDropdown' data-toggle='collapse', data-target='#navbarResponsive')
