@@ -93,5 +93,10 @@
       "partnerName": "Product Development Days",
       "partnerUrl": "http://www.productdevelopmentdays.com/",
       "partnerLogo": "pdd-logo-200x200.png"
+  },
+  {
+      "partnerName": "JavaStart",
+      "partnerUrl": "http://javastart.pl/",
+      "partnerLogo": "javastart-logo-200x200.png"
   }
 ]
