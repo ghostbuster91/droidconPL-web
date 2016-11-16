@@ -39,8 +39,8 @@
     "sessionId": 5,
     "speakerId": 5,
     "sessionType": "Talk",
-    "sessionTitle": "Toothpick, the better Dagger?",
-    "sessionDescription": "Why Another Dependency Injection Framework?<br />Everyone is happy with Dagger, aren't they?<br />This session introduce Toothpick that was created this year and is already used by millions of users as driven a lot by engineers at Groupon.<br />What was their need? What's wrong with Dagger?<br />Toothpick was designed to bring goodies from Guice to modern mobile world. <br />It focuses on scopes and unit testing without loosing performance as Roboguice did.",
+    "sessionTitle": "Demystifying Dependency Injection: About Daggers and Toothpicks",
+    "sessionDescription": "Dependency Injection, that's the thing that Dagger2 does, right? For most of us, it's black magic. Let's look deeper how DI works. And then we better understand the frameworks that are out there. This session introduce Toothpick that was created this year and is already used by millions of users as driven a lot by engineers at Groupon.<br />What was their need? What's wrong with Dagger?<br />Toothpick was designed to bring goodies from Guice to modern mobile world. It focuses on scopes and unit testing without loosing performance as Roboguice did.",
     "sessionTags": ["Testing", "Libraries", "Raw coding in Java!"],
     "sessionLength": 45
   },
