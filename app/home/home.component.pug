@@ -19,14 +19,17 @@ header#main-banner
     #main-buttons
       a.green-button(href="https://goo.gl/eyw7uF" target="_blank") Buy ticket
       a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Call 4 Papers
-      //- TODO Dodać href do sekcji Contact
       a.green-button(href="#contact") Contact
 
 section#about.white-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header About the conference
+      .col-xs-12
+        .section-header
+          | About the
+          br
+          | conference
+        .section-line: hr
     .row
       .col-xs-12
         p.section-paragraph
@@ -55,8 +58,12 @@ section#about.white-background
 section#recaption.light-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header  How was it last year?
+      .col-xs-12
+        h1.section-header
+          | Last year
+          br
+          | impressions
+        .section-line: hr
     .row
       .col-xs-12
         iframe.youtube-iframe(
@@ -71,8 +78,12 @@ section#recaption.light-background
 section#participate.green-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header Participate in 2016!
+      .col-xs-12
+        h1.section-header
+          | Participate
+          br
+          | in 2016!
+        .section-line: hr
     .row
       .col-xs-12.col-lg-4
         img(src="{{learnIcon}}" alt="Learn icon")
@@ -104,8 +115,12 @@ section#participate.green-background
 section#speakers-preview.white-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header See our speakers!
+      .col-xs-12
+        h1.section-header
+          | See our
+          br
+          | speakers!
+        .section-line: hr
     .row.preview-stack
       .col-xs-12.col-md-4(*ngFor="let speaker of speakerPreview")
         .speaker-bracket
@@ -120,8 +135,12 @@ section#speakers-preview.white-background
 section#call-4-paper.black-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header Submit your paper
+      .col-xs-12
+        h1.section-header
+          | Submit
+          br
+          | your paper
+        .section-line: hr
     .row
       .col-xs-12
         p.section-paragraph
@@ -137,8 +156,12 @@ sponsors
 section#jobreloaded.grey-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header Career with jobreloaded
+      .col-xs-12
+        h1.section-header
+          | Career with
+          br
+          | jobreloaded
+        .section-line: hr
     .row
       .col-xs-12
         p.section-paragraph
@@ -146,9 +169,9 @@ section#jobreloaded.grey-background
         p.section-paragraph
           | Find your Android job among worldwide job opportunities and save 20% on droidcon tickets (including droidcon Kraków).
     .row
-      .col-xs-12.col-md-6
+      .col-xs-12.col-lg-6
         iframe.youtube-iframe(src='https://player.vimeo.com/video/176019222', width='320', height='215', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
-      .col-xs-12.col-md-6
+      .col-xs-12.col-lg-6
         iframe.youtube-iframe(src='https://player.vimeo.com/video/173017178', width='320', height='215', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
     .row
       .col-xs-12
@@ -161,8 +184,12 @@ partners
 section#contact.grey-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header  Contact us
+      .col-xs-12
+        h1.section-header
+          | Contact
+          br
+          | us
+        .section-line: hr
     .row
       .col-xs-12
         p.section-paragraph

@@ -1,9 +1,12 @@
 section#sessions.light-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header Explore the sessions
-
+      .col-xs-12
+        h1.section-header
+          | Explore the
+          br
+          | sessions
+        .section-line: hr
     .row
       .col-xs-12.talk-bracket(*ngFor="let session of sessions")
         .row

@@ -1,9 +1,5 @@
 @import "./_variables.styl";
 
-.container
-  @media lg
-    width: 1250px
-
 // centering bootstrap columns
 .row-centered
   text-align:center
@@ -14,6 +10,9 @@
   text-align:left
   /* inline-block space fix */
   margin-right:-4px
+
+headerHeightXs = 90px
+headerHeightMd = 130px
 
 section
   padding: 50px 25px
@@ -27,9 +26,20 @@ section
   .section-header
     font-family: "nerisblack", Helvetica, Arial, sans-serif
     font-size: 40px
+    line-height: 1.1
     margin-bottom: 40px
+    margin-right: 25px
+    max-width: 220px
+    height: headerHeightXs
+    float: left
     @media md
+      height: headerHeightMd
+      max-width: 320px
       font-size: 55px
+      margin-right: 35px
+    @media lg
+      margin-right: 55px
+      margin-bottom: 85px
   .section-subtitle
     text-align: center
     font-family: "nerissemibold", Helvetica, Arial, sans-serif
@@ -54,22 +64,39 @@ section
 .white-background
   background-color: colWhite
   color: textBlack
+  .section-line hr
+    border-top: 2px solid textBlack
 
 .light-background
   background-color: colLight
   color: textBlack
+  .section-line hr
+    border-top: 2px solid textBlack
 
 .grey-background
   background-color: colGrey
   color: colWhite
+  .section-line hr
+    border-top: 2px solid colWhite
 
 .green-background
   background-color: colGreen
   color: colWhite
+  .section-line hr
+    border-top: 2px solid colWhite
 
 .black-background
   background-color: colDark
   color: colWhite
+  .section-line hr
+    border-top: 2px solid colWhite
+
+// Section header lines
+.section-line
+  margin-top: (headerHeightXs / 2)
+  @media md
+    margin-top: (headerHeightMd / 2)
+
 
 // Elements
 .green-button

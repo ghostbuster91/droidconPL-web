@@ -1,8 +1,12 @@
 section#speakers.white-background
   .container
     .row
-      .col-xs-7.col-sm-6.col-lg-4
-        h1.section-header See our speakers!
+      .col-xs-12
+        h1.section-header
+          | See our
+          br
+          | speakers!
+        .section-line: hr
     .row.full-stack
       .col-xs-12.col-md-4(*ngFor="let speaker of speakers")
         .speaker-bracket
