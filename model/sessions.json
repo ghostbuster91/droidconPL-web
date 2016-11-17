@@ -157,8 +157,44 @@
     "speakerId": 18,
     "sessionType": "Talk",
     "sessionTitle": "~Dependency~ Library injection. How to extend any app without single line of code.",
-    "sessionDescription": "It's not about dagger. It's about putting your source code to an Android binary. Yes the compiled dex code! During the presentation I will show in steps how to inject aar to apk without having original source code nor resources. ",
+    "sessionDescription": "It's not about dagger. It's about putting your source code to an Android binary. Yes the compiled dex code! During the presentation I will show in steps how to inject aar to apk without having original source code nor resources.",
     "sessionTags": ["Libraries", "Reverse engineering "],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 19,
+    "speakerId": 5,
+    "sessionType": "Talk",
+    "sessionTitle": "Unittesting without Robolectric",
+    "sessionDescription": "For a long time unit testing on Android meant using Robolectric. But since Google supports unit testing on the JVM the need is not there. But developers used lots of advanced features from Robolectric that should not be used in a unit test. This sessions tries to show some ways how to replace Robolectric when handling with Android classes to gain performance and stability for your tests.",
+    "sessionTags": ["Testing"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 20,
+    "speakerId": 19,
+    "sessionType": "Talk",
+    "sessionTitle": "Android Tool Time: Holiday Special",
+    "sessionDescription": "Come listen to this holiday themed tale about how we used tools integrated in the newest Android Studio versions to help Santa optimize package delivery and lower the space taken by his presents on Android devices around the world.",
+    "sessionTags": ["Tools"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 21,
+    "speakerId": 20,
+    "sessionType": "Talk",
+    "sessionTitle": "Wire Up new Firebase !",
+    "sessionDescription": "Firebase, a game changer player especially with the new upgrade and of course after Google integration, in this talk i will introduce the new Firebase and showcase the The What, Why and how we can incorporate The new Firebase in our workflow for fun and profit.",
+    "sessionTags": ["Back-end", "Libraries"],
+    "sessionLength": 30
+  },
+  {
+    "sessionId": 22,
+    "speakerId": 21,
+    "sessionType": "Talk",
+    "sessionTitle": "Building Overlay SDKs - the two-minute integration challenge",
+    "sessionDescription": "The Android app ecosystem is evolving every day and developers are seeking better tools and libraries to help them create apps that will stand out in the overcrowded marketplace. Third-party SDKs appear every day promising to aid this process, instead they bring friction and integration challenges - is it worth the effort? More often the answer is no, as many of them need a significant amount of effort to become embedded in an app. Building SDKs for seamless integration is a challenge, especially when you have to deal on the view level. So how do we attack the two-minute integration challenge?<br /><br />In this session we will discuss a set of good practices on how to build a well-structured SDK focusing on the view level. We will take a deep-dive into the different options available for rendering overlays on Android - particularly through an SDK - highlighting capabilities and limitations of each approach.  Over the course of the session we will explore the various technical decisions an SDK developer has to make to overcome platform limitations, focusing on how to provide a minimalistic interaction with the SDK users, while still keeping the full functionality of the SDK under the hood.",
+    "sessionTags": ["Libraries"],
     "sessionLength": 45
   }
 ]

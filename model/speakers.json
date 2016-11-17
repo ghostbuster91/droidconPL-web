@@ -250,6 +250,48 @@
     "linkedIn": "https://www.linkedin.com/in/pjakubczyk",
     "googlePlus": "",
     "imageUrl": "Przemek-Jakubczyk.jpg"
+  },
+  {
+    "id": 19,
+    "firstName": "Wojtek",
+    "lastName": "Kaliciński",
+    "websiteTitle": "Android Developer Advocate @ Google",
+    "bio": "Developer Advocate at Google London, helping developers leverage the power of Android Studio and Tools, as well as providing general outreach for the Android platform. Previously member of the Google Developer Experts program and co-founder and long time organiser at GDG Warsaw.",
+    "websiteLink": "https://developer.android.com",
+    "facebookLink": "",
+    "twitterHandler": "https://twitter.com/wkalic",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "https://plus.google.com/+WojtekKalicinski",
+    "imageUrl": "Wojtek-Kalicinski.jpg"
+  },
+  {
+    "id": 20,
+    "firstName": "Houssem",
+    "lastName": "Yahiaoui",
+    "websiteTitle": "",
+    "bio": "Telerik Developer Expert, GDG Lead, and NG/JS Algeria ( North Africa ) meetup founder, I always was a community lover and supporter, therefore I develop content, cool demos and record awesome workshops whenever i have time. in short I do believe that sharing is caring.",
+    "websiteLink": "https://medium.com/@houssemyahiaoui/",
+    "facebookLink": "https://www.facebook.com/houssem.intern0t",
+    "twitterHandler": "https://twitter.com/_hcodex",
+    "githubLink": "https://github.com/houssem-yahiaoui",
+    "linkedIn": "https://www.linkedin.com/in/houssemyahiaoui",
+    "googlePlus": "https://plus.google.com/+HoussemYahiaoui",
+    "imageUrl": "Houssem-Yahiaoui.jpg"
+  },
+  {
+    "id": 21,
+    "firstName": "Andreas",
+    "lastName": "Vourkos",
+    "websiteTitle": "Mobile Software Engineer @ Pollfish",
+    "bio": "Andreas is a mobile software engineer at Pollfish building its SDKs for different platforms. He has been developing mobile apps since the early days of feature phones with J2ME and has a strong interest in mobile monetization tactics and trends and how they are applied in an app’s design.",
+    "websiteLink": "http://www.pollfish.com/publisher",
+    "facebookLink": "https://www.facebook.com/andreas.vourkos",
+    "twitterHandler": "https://twitter.com/vourkosa",
+    "githubLink": "https://github.com/vourkosa",
+    "linkedIn": "https://www.linkedin.com/in/andreasvourkos",
+    "googlePlus": "https://plus.google.com/u/0/+AndreasVourkos",
+    "imageUrl": "Andreas-Vourkos.png"
   }
 
 ]
