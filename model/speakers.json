@@ -292,6 +292,48 @@
     "linkedIn": "https://www.linkedin.com/in/andreasvourkos",
     "googlePlus": "https://plus.google.com/u/0/+AndreasVourkos",
     "imageUrl": "Andreas-Vourkos.png"
+  },
+  {
+    "id": 22,
+    "firstName": "Mihael",
+    "lastName": "Franceković",
+    "websiteTitle": " Android dev @ Five",
+    "bio": "I am a passionate android dev and mobile technology enthusiast. By day, I am developing awesome apps at Five, a design driven agency. And in my free time, I am trying out new technologies, tinker around my side projects and I love to grab a fine, cold beer or two.",
+    "websiteLink": "",
+    "facebookLink": "https://www.facebook.com/mihael.francekovic",
+    "twitterHandler": "https://twitter.com/0ximDigital",
+    "githubLink": "https://github.com/0ximDigital",
+    "linkedIn": "https://www.linkedin.com/in/mihaelfrancekovic",
+    "googlePlus": "",
+    "imageUrl": "Mihael-Francekovic.png"
+  },
+  {
+    "id": 23,
+    "firstName": "Aleksander",
+    "lastName": "Piotrowski",
+    "websiteTitle": "Code Monkey",
+    "bio": "A software leader with more than 20 years of technology experience in the telecommunications industry, bringing a broad vision in sales, marketing, and customer care to start-up and high-growth companies. Using Android since day one and thus highly experienced with AsyncTask, ListView and Java 6 programming.",
+    "websiteLink": "",
+    "facebookLink": "https://www.facebook.com/pelotasplus",
+    "twitterHandler": "https://twitter.com/pelotasplus",
+    "githubLink": "https://github.com/pelotasplus",
+    "linkedIn": "https://linkedin.com/in/pelotasplus",
+    "googlePlus": "https://plus.google.com/+AleksanderPiotrowski",
+    "imageUrl": "Aleksander-Piotrowski.jpg"
+  },
+  {
+    "id": 24,
+    "firstName": "Sergii",
+    "lastName": "Zhuk",
+    "websiteTitle": "Android Software Engineer @ Zalando",
+    "bio": "Sergii Zhuk is Android Software Engineer at Zalando SE (Berlin). Passionated with programming since high school, he has started his career as Java backend developer, but later switched to Android. Sergii is the author of Android Digest for Ukrainian Software Developers Community (DOU.ua) and speaker at various tech events.",
+    "websiteLink": "https://medium.com/@sergii",
+    "facebookLink": "https://www.facebook.com/sergii.zhuk",
+    "twitterHandler": " https://twitter.com/sergiizhuk",
+    "githubLink": "",
+    "linkedIn": "https://www.linkedin.com/in/sergiizhuk",
+    "googlePlus": "",
+    "imageUrl": "Sergii-Zhuk.jpg"
   }
 
 ]
