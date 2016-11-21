@@ -196,5 +196,32 @@
     "sessionDescription": "The Android app ecosystem is evolving every day and developers are seeking better tools and libraries to help them create apps that will stand out in the overcrowded marketplace. Third-party SDKs appear every day promising to aid this process, instead they bring friction and integration challenges - is it worth the effort? More often the answer is no, as many of them need a significant amount of effort to become embedded in an app. Building SDKs for seamless integration is a challenge, especially when you have to deal on the view level. So how do we attack the two-minute integration challenge?<br /><br />In this session we will discuss a set of good practices on how to build a well-structured SDK focusing on the view level. We will take a deep-dive into the different options available for rendering overlays on Android - particularly through an SDK - highlighting capabilities and limitations of each approach.  Over the course of the session we will explore the various technical decisions an SDK developer has to make to overcome platform limitations, focusing on how to provide a minimalistic interaction with the SDK users, while still keeping the full functionality of the SDK under the hood.",
     "sessionTags": ["Libraries"],
     "sessionLength": 45
+  },
+  {
+    "sessionId": 23,
+    "speakerId": 22,
+    "sessionType": "Talk",
+    "sessionTitle": "Android animations go reactive",
+    "sessionDescription": "In this talk, I will show how to use RxJava to make android animations reactive.<br />We will see what is the main motive behind this RxZation, which problems it solves and how we can all benefit.<br />In a few demos, we will see how to easily and without boilerplate animate items together, one after the other or with the specified delay among them.",
+    "sessionTags": ["Design", "RxJava"],
+    "sessionLength": 30
+  },
+  {
+    "sessionId": 24,
+    "speakerId": 23,
+    "sessionType": "Talk",
+    "sessionTitle": "RxJava 2",
+    "sessionDescription": "RxJava 2 introduces new API and few important changes making it even more funnier to use than version 1. In my presentation I'll go through the new features and APIs, compare them to the original ones and explain what's the difference.",
+    "sessionTags": ["Raw coding in Java!", "RxJava"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 25,
+    "speakerId": 24,
+    "sessionType": "Talk",
+    "sessionTitle": "Mobile analytics for the app developers",
+    "sessionDescription": "If you have a mobile application in production or going to develop one — here is a thing lots of teams are missing from the beginning. This thing is collecting usage and user behavior statistics inside your app, in one word — Tracking. In this talk I will describe the key principles of application tracking every mobile engineer should know.<br />We will check the key event types and some popular tools to track the user behavior, security concepts, ways how to test the analytics output and common developer challenges.",
+    "sessionTags": ["Libraries"],
+    "sessionLength": 30
   }
 ]
