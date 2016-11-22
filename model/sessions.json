@@ -219,8 +219,8 @@
     "sessionId": 25,
     "speakerId": 24,
     "sessionType": "Talk",
-    "sessionTitle": "Mobile analytics for the app developers",
-    "sessionDescription": "If you have a mobile application in production or going to develop one — here is a thing lots of teams are missing from the beginning. This thing is collecting usage and user behavior statistics inside your app, in one word — Tracking. In this talk I will describe the key principles of application tracking every mobile engineer should know.<br />We will check the key event types and some popular tools to track the user behavior, security concepts, ways how to test the analytics output and common developer challenges.",
+    "sessionTitle": "The key concepts of app tracking for developers",
+    "sessionDescription": "If you have a mobile application or are going to develop one, it is important to remember about one thing on the side — mobile analytics, and a process behind it — application tracking. Simply put, tracking means collecting, enriching, formatting and passing data about your app to your analytics tools. In this talk we will discuss why you need tracking and how to get the maximum out of it.<br /><br />We will check use cases when to track data, some popular tracking/analytics tools, configuration options, and customer privacy issues. Also, we will take a look at common developer challenges and possible ways to test the tracking output.",
     "sessionTags": ["Libraries"],
     "sessionLength": 30
   }
