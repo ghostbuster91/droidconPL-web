@@ -22,5 +22,13 @@
     "sponsorLogo": "pixplicity-logo_400x400.png",
     "sponsorTitle": "Pixplicity",
     "sponsorPackage": "Travel"
+  },
+  {
+    "sponsorId": 4,
+    "sponsorName": "ZalandoTech",
+    "sponsorUrl": "https://tech.zalando.com/",
+    "sponsorLogo": "zalando-logo_400x400.png",
+    "sponsorTitle": "Zalando Tech",
+    "sponsorPackage": "Travel"
   }
 ]
