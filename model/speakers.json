@@ -334,6 +334,48 @@
     "linkedIn": "https://www.linkedin.com/in/sergiizhuk",
     "googlePlus": "https://plus.google.com/+SergiiZhuk1",
     "imageUrl": "Sergii-Zhuk.jpg"
+  },
+  {
+    "id": 25,
+    "firstName": "Selim",
+    "lastName": "Salman",
+    "websiteTitle": "Android Evangelist Engineer",
+    "bio": "A diversified Software Engineer who started with Android since 2009. Selim has a wide spectrum of ICT knowledge with more than 7 years of professional experience in the IT industry within corporate, startups and academia. Selim has conducted presentations, workshops in Android, IoT and related fields in Droidcon, Code.Talks, DevFest and other Android meetups. Selim is living the diversity and enjoys PingPong!",
+    "websiteLink": "http://aselims.blogspot.com/",
+    "facebookLink": "",
+    "twitterHandler": "https://twitter.com/A_SelimS",
+    "githubLink": "https://github.com/aselims",
+    "linkedIn": "http://linkedin.com/in/aselimsalman",
+    "googlePlus": "https://plus.google.com/+ASelimSalman",
+    "imageUrl": "A-Selim-Selman.jpg"
+  },
+  {
+    "id": 26,
+    "firstName": "Oleksandr",
+    "lastName": "Tolstykh",
+    "websiteTitle": "Android Developer @ Sharewire",
+    "bio": "Oleksandr is a passionate Android Developer. Working at Sharewire as an Android developer he develops various applications, from simple UI-pretty clients applications to complicated ad frameworks. Over more than 5 years in Android Industries he has tried a variety of different technologies and frameworks, but his favorite topics are continuous integration, testing, all kinds of optimisations and material design, of course.",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "https://twitter.com/a_tolstykh",
+    "githubLink": "",
+    "linkedIn": "https://www.linkedin.com/in/alexandr-tolstykh-31807997",
+    "googlePlus": "https://plus.google.com/+OleksandrTolstykh",
+    "imageUrl": "Oleksandr-Tolstykh.jpg"
+  },
+  {
+    "id": 27,
+    "firstName": "Cristian",
+    "lastName": "Gomez",
+    "websiteTitle": "Developer @HugeMDE and Co-Organizer @MedelleinAndroid",
+    "bio": "I'm a passionate developer in Colombia, currently working for Huge in Medellin. Focused in trying to show the world that code matters and it can be done with great quality and speed. With the Android community in Colombia I was able to gain more expertice about great ideas from Clean Code, Agile, TDD and performance. ",
+    "websiteLink": "",
+    "facebookLink": "http://facebook.com/iyubinest",
+    "twitterHandler": "https://twitter.com/iyubinest",
+    "githubLink": "http://github.com/iyubinest",
+    "linkedIn": "https://co.linkedin.com/in/iyubinest",
+    "googlePlus": "https://plus.google.com/u/0/107268547924564622941",
+    "imageUrl": "Cristian-Gomez.jpg"
   }
 
 ]
