@@ -10,8 +10,8 @@ section#partners.light-background
       .col-xs-12
         p.section-paragraph
           | Meet our great partners that have been supporting us among the years!
-    .row
-      .col-xs-6.col-md-4.col-lg-3(*ngFor="let partner of partners")
+    .row.row-centered
+      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let partner of partners")
         .partner-bracket.tooltip
           span.tooltiptext {{partner.partnerName}}
           a(href="{{partner.partnerUrl}}" target="_blank")

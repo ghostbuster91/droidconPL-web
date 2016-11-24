@@ -98,5 +98,15 @@
       "partnerName": "JavaStart",
       "partnerUrl": "http://javastart.pl/",
       "partnerLogo": "javastart-logo-200x200.png"
+  },
+  {
+      "partnerName": "Mobicode",
+      "partnerUrl": "http://mobicode.by/en/home_en/",
+      "partnerLogo": "mobicode-logo-200x200.png"
+  },
+  {
+      "partnerName": "Mobile Optimized",
+      "partnerUrl": "http://mo.dev.by/english.html",
+      "partnerLogo": "mobile-optimized-logo-200x200.png"
   }
 ]
