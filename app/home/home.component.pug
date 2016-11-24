@@ -18,7 +18,7 @@ header#main-banner
           #seconds
     #main-buttons
       a.green-button(href="https://goo.gl/eyw7uF" target="_blank") Buy ticket
-      a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Call 4 Papers
+      a.green-button([routerLink]="['sessions']") See sessions
       a.green-button(href="#contact") Contact
 
 section#about.white-background
@@ -144,12 +144,13 @@ section#call-4-paper.black-background
     .row
       .col-xs-12
         p.section-paragraph
-          | Call For Papers for droidcon Kraków 2016 is open
-          | and you can submit your ideas of talks and workshops for this year's agenda.
+          | Call For Papers for droidcon Kraków 2016 is already closed.
+          br
+          | We are now working on the agenda which will be published soon!
         p.section-paragraph
           | Hope to see you on droidconPL 2016!
-        p.section-paragraph.button-paragraph
-          a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Fill the form
+        //- p.section-paragraph.button-paragraph
+        //-   a.green-button(href="https://goo.gl/forms/jRwLWmej0aflhVII2" target="_blank") Fill the form
 
 sponsors
 
