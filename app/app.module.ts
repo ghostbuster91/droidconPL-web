@@ -17,6 +17,7 @@ import { SessionsService } from './sessions/sessions.service';
 import { SpeakerModalComponent } from './otherViews/speakerModal.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { SponsorsService } from './sponsors/sponsors.service';
+import { WorkshopsComponent } from './workshops/workshops.component';
 
 import { routing } from './app.routing';
 
@@ -37,7 +38,8 @@ import { routing } from './app.routing';
     CodeOfConductComponent,
     SessionsComponent,
     SpeakerModalComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    WorkshopsComponent
   ],
   providers: [ SpeakersService, PartnersService, SessionsService, SponsorsService ],
   bootstrap:    [ AppComponent ]

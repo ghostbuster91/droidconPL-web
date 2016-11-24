@@ -5,8 +5,10 @@ import { HomeComponent } from './home/home.component';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SessionsComponent } from './sessions/sessions.component';
 import { CodeOfConductComponent } from './otherViews/codeOfConduct.component';
+import { WorkshopsComponent } from './workshops/workshops.component';
 
 const appRoutes: Routes = [
+  { path: 'workshops', component: WorkshopsComponent },
   { path: 'codeOfConduct', component: CodeOfConductComponent },
   { path: 'sessions', component: SessionsComponent },
   { path: 'speakers', component: SpeakersComponent },
