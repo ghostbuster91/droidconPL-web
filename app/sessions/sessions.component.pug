@@ -18,10 +18,10 @@ section#sessions.light-background
             span.talk-length
               | Talk length:
               strong  {{ session.sessionLength }} min.
-          .col-xs-12.col-md-4.talk-speaker
-            img.speaker-photo((click)="setSpeaker(speakers[ session.speakerId - 1 ])", src="{{speakerImg(speakers[ session.speakerId - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
-            span.speaker-name {{ speakers[ session.speakerId - 1 ].firstName }} {{ speakers[ session.speakerId - 1 ].lastName }}
-            span.speaker-title {{ speakers[ session.speakerId - 1 ].websiteTitle }}
+          .col-xs-12.col-md-4.talk-speaker(*ngFor="let sessionSpeaker of session.speakerId")
+            img.speaker-photo((click)="setSpeaker(speakers[ sessionSpeaker - 1 ])", src="{{speakerImg(speakers[ sessionSpeaker - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
+            span.speaker-name {{ speakers[ sessionSpeaker - 1 ].firstName }} {{ speakers[ sessionSpeaker - 1 ].lastName }}
+            span.speaker-title {{ speakers[ sessionSpeaker - 1 ].websiteTitle }}
 
     .row
       .col-xs-12
