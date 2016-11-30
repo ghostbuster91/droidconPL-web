@@ -11,7 +11,7 @@ section#sessions.first-section.light-background
       .col-xs-12.talk-bracket(*ngFor="let session of sessions")
         .row
           .col-xs-12.col-md-8.talk-details
-            h3.talk-title {{ session.sessionTitle }}
+            h3.talk-title([innerHTML]="session.sessionTitle")
             .talk-tags
               .talk-tag(*ngFor="let tag of session.sessionTags") {{ tag }}
             span.talk-description([innerHTML]="session.sessionDescription")

@@ -81,8 +81,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 11,
-    "speakerId": [11],
+    "sessionId": 10,
+    "speakerId": [10],
     "sessionType": "Talk",
     "sessionTitle": "Making the Most of Your Gradle Builds",
     "sessionDescription": "Nowadays, Gradle is undoubtedly The Build Tool in Android development, and a very powerful one. In addition to that, Gradle keeps evolving fast, each new release bringing new features and performance optimizations. However, many of us are using just basic Gradle config and waiting patiently for minutes until our builds run. Can we do better? In this session, we’re going to discuss tips & tricks on getting the most of your Gradle builds and improving your productivity!",
@@ -90,8 +90,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 12,
-    "speakerId": [12],
+    "sessionId": 11,
+    "speakerId": [11],
     "sessionType": "Talk",
     "sessionTitle": "Clean architecture at scale",
     "sessionDescription": "Do you remember the good old days of Android development? Life was simple and easy, and you could get away with writing whatever you were able to compile. Those times are gone now... Mobile apps have grown to sizes that would scare enterprise developers from a decade ago, and you still have to provide a smooth and slick user experience!<br />This complexity can quickly get out of hand unless we think carefully about the way we architecture our apps. We might get caught in an unmaintainable code that forces us to spend more time patching and fixing than developing new features.<br />But fear not, we have found our saviour: Clean Architecture! It’s a set of best practices that help to structure code in a layered way, with the ability to test and replace each layer as needed. Could this be the silver bullet that Android needs?<br />I was given the opportunity to start coding Bumble: a greenfield project centred on user experience - no performance sacrifice was acceptable. I knew it was the right place to apply this kind of architecture. Over 1 million downloads later I want to share my story. I want to show you how good app architecture can help you to achieve a code which is readable, modular and extendable.",
@@ -99,8 +99,8 @@
     "sessionLength": 30
   },
   {
-    "sessionId": 13,
-    "speakerId": [13],
+    "sessionId": 12,
+    "speakerId": [12],
     "sessionType": "Talk",
     "sessionTitle": "Writing truly testable code",
     "sessionDescription": "Many developers understand why testing is so important, but not everyone is writing tests on a daily basis. One of the most common issues is that it’s hard to test a codebase that was not designed to be testable. This talk will cover how to write code that can be tested easily. We will also talk about how to introduce testing to an existing not-test-ready codebase. While things like Android, MVP, Kotlin, Rx will be used in examples, prior knowledge of these technologies is not strictly required. Also, the approach itself is generic enough to be used on any platform or with any language.",
@@ -108,8 +108,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 14,
-    "speakerId": [14],
+    "sessionId": 13,
+    "speakerId": [13],
     "sessionType": "Talk",
     "sessionTitle": "Deeper insight into Android Espresso library",
     "sessionDescription": "Talk is devoted to people with any level of expertise. It starts with basics such as library introduction, goes through Espresso usage formulas, components and there are a lot of examples with pre-recorded videos and sample code to them. Examples are a bit more complex in order to pinpoint common misconceptions and problems and explain how to deal with it. Each introduced thing is being inspected - so from basics I will keep moving to more and more complicated things like - test process structure, synchronisation  between UI and Test threads, explanation of idle state and Espresso IdlingResource.",
@@ -117,8 +117,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 15,
-    "speakerId": [15],
+    "sessionId": 14,
+    "speakerId": [14],
     "sessionType": "Talk",
     "sessionTitle": "Use code ​generation to make better apps",
     "sessionDescription": "Why write code yourself when a computer can do it better. In this talk I will describe what code generation is, where we can use it and how and why we should use it. Some subject in this talk are Annotations and Annotation processing, Dependency Injection and reducing boilerplate code.",
@@ -126,8 +126,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 16,
-    "speakerId": [16],
+    "sessionId": 15,
+    "speakerId": [15],
     "sessionType": "Talk",
     "sessionTitle": "Keeping it SOLID",
     "sessionDescription": "Fed up of code that's difficult to refactor? Tired of code smells? Tired of working with messy software architecture? Having personally worked with legacy code on a regular basis, I began to understand how important it is to alleviate these pains. Luckily for you there are five principles of object-orientated design that can help us to craft software that is both easy to maintain and extend, these principles are known together as SOLID.<br />In this talk we'll look at what makes up the SOLID acronym and what each principle means for our code - followed by how we can use these principles to improve both the code we maintain and also code we write in the future. Working with legacy code on the android app at Buffer has given me the opportunities to apply these principles when both refactoring and rewriting parts of the project. From this we'll be looking at real world examples to help us understand how the different aspects of SOLID can be implemented into our own projects to create the same result of a better crafting system.<br />By the end of this talk, we'll be more familiar with the concepts of SOLID and how we can use the approach during development to write more maintainable and extensible code.",
@@ -135,8 +135,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 17,
-    "speakerId": [17],
+    "sessionId": 16,
+    "speakerId": [16],
     "sessionType": "Talk",
     "sessionTitle": "Feel The Hack; Sensor Networking With Android",
     "sessionDescription": "We will be discussing sensor networks, senors, hardware and android phones. More importantly this session will be less of a talk, and more of a hands on, audience participatory session where we will take apart phones, build sensors and connect them up. This is live hacking - expect the unexpected.",
@@ -144,16 +144,16 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 18,
-    "speakerId": [18],
+    "sessionId": 17,
+    "speakerId": [17],
     "sessionType": "Talk",
-    "sessionTitle": "~Dependency~ Library injection. How to extend any app without single line of code.",
+    "sessionTitle": "<del>Dependency</del> Library injection. How to extend any app without single line of code.",
     "sessionDescription": "It's not about dagger. It's about putting your source code to an Android binary. Yes the compiled dex code! During the presentation I will show in steps how to inject aar to apk without having original source code nor resources.",
     "sessionTags": ["Libraries", "Reverse engineering "],
     "sessionLength": 45
   },
   {
-    "sessionId": 19,
+    "sessionId": 18,
     "speakerId": [5],
     "sessionType": "Talk",
     "sessionTitle": "Unittesting without Robolectric",
@@ -162,8 +162,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 20,
-    "speakerId": [19],
+    "sessionId": 19,
+    "speakerId": [18],
     "sessionType": "Talk",
     "sessionTitle": "Android Tool Time: Holiday Special",
     "sessionDescription": "Come listen to this holiday themed tale about how we used tools integrated in the newest Android Studio versions to help Santa optimize package delivery and lower the space taken by his presents on Android devices around the world.",
@@ -171,8 +171,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 21,
-    "speakerId": [20],
+    "sessionId": 20,
+    "speakerId": [19],
     "sessionType": "Talk",
     "sessionTitle": "Wire Up new Firebase !",
     "sessionDescription": "Firebase, a game changer player especially with the new upgrade and of course after Google integration, in this talk i will introduce the new Firebase and showcase the The What, Why and how we can incorporate The new Firebase in our workflow for fun and profit.",
@@ -180,8 +180,8 @@
     "sessionLength": 30
   },
   {
-    "sessionId": 22,
-    "speakerId": [21],
+    "sessionId": 21,
+    "speakerId": [20],
     "sessionType": "Talk",
     "sessionTitle": "Building Overlay SDKs - the two-minute integration challenge",
     "sessionDescription": "The Android app ecosystem is evolving every day and developers are seeking better tools and libraries to help them create apps that will stand out in the overcrowded marketplace. Third-party SDKs appear every day promising to aid this process, instead they bring friction and integration challenges - is it worth the effort? More often the answer is no, as many of them need a significant amount of effort to become embedded in an app. Building SDKs for seamless integration is a challenge, especially when you have to deal on the view level. So how do we attack the two-minute integration challenge?<br /><br />In this session we will discuss a set of good practices on how to build a well-structured SDK focusing on the view level. We will take a deep-dive into the different options available for rendering overlays on Android - particularly through an SDK - highlighting capabilities and limitations of each approach.  Over the course of the session we will explore the various technical decisions an SDK developer has to make to overcome platform limitations, focusing on how to provide a minimalistic interaction with the SDK users, while still keeping the full functionality of the SDK under the hood.",
@@ -189,8 +189,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 23,
-    "speakerId": [22],
+    "sessionId": 22,
+    "speakerId": [21],
     "sessionType": "Talk",
     "sessionTitle": "Android animations go reactive",
     "sessionDescription": "In this talk, I will show how to use RxJava to make android animations reactive.<br />We will see what is the main motive behind this RxZation, which problems it solves and how we can all benefit.<br />In a few demos, we will see how to easily and without boilerplate animate items together, one after the other or with the specified delay among them.",
@@ -198,8 +198,8 @@
     "sessionLength": 30
   },
   {
-    "sessionId": 24,
-    "speakerId": [23],
+    "sessionId": 23,
+    "speakerId": [22],
     "sessionType": "Talk",
     "sessionTitle": "RxJava 2",
     "sessionDescription": "RxJava 2 introduces new API and few important changes making it even more funnier to use than version 1. In my presentation I'll go through the new features and APIs, compare them to the original ones and explain what's the difference.",
@@ -207,8 +207,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 25,
-    "speakerId": [24],
+    "sessionId": 24,
+    "speakerId": [23],
     "sessionType": "Talk",
     "sessionTitle": "The key concepts of app tracking for developers",
     "sessionDescription": "If you have a mobile application or are going to develop one, it is important to remember about one thing on the side — mobile analytics, and a process behind it — application tracking. Simply put, tracking means collecting, enriching, formatting and passing data about your app to your analytics tools. In this talk we will discuss why you need tracking and how to get the maximum out of it.<br /><br />We will check use cases when to track data, some popular tracking/analytics tools, configuration options, and customer privacy issues. Also, we will take a look at common developer challenges and possible ways to test the tracking output.",
@@ -216,8 +216,8 @@
     "sessionLength": 30
   },
   {
-    "sessionId": 26,
-    "speakerId": [25],
+    "sessionId": 25,
+    "speakerId": [24],
     "sessionType": "Talk",
     "sessionTitle": "Android, the way to go!",
     "sessionDescription": "Android platform is under development and progressing... Some parts are mature and some are not... From IDE, core components, till support/3rd party libraries. Even not surprisingly official documentation/other resources is somehow outdated and may not reflect behaviour changes with each major release. This what we can call living the diversity in Android world!<br /><br />In this talk, I will try to tackle this diversity with some tools and best practices/pro-tips while adopting KISS principle with quality, performance and UX in mind. As of the inspiring nature of this talk: Architecture, Productivity tools, and lessons learnt from day-to-day development will be discussed.",
@@ -225,8 +225,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 27,
-    "speakerId": [26],
+    "sessionId": 26,
+    "speakerId": [25],
     "sessionType": "Talk",
     "sessionTitle": "Quality. Android quality",
     "sessionDescription": "Working at multi-project company I am experiencing with boring and time-expensive project/environment configuration every time I start developing a new project. I've tried a lot of different technologies and technics and now I have a list of effective tools which may help during project development from the beginning. I have two different approaches for long term and short term projects, which can be combined depend on project goals, timelines, etc… For instance this list contains some of the core things about CI configuration, UI testing configuration, sharing rules and guidelines within a team, documentation, etc… Also some quality tools, which can be easily integrable, reusable, informative with minimum effort. Some of these tools can be added in the middle of the project development just to increase project quality, find hidden issues, analyse app performance, etc.",
@@ -234,8 +234,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 28,
-    "speakerId": [27],
+    "sessionId": 27,
+    "speakerId": [26],
     "sessionType": "Talk",
     "sessionTitle": "TDD for real world apps",
     "sessionDescription": "TDD is a common practice that is not common in Android development, following the principles of clean code we can reach testable code (also Model View Presenter & Clean Architecture) . In this talk we are taking an approach for getting tested components for handling view, view's logic, http connections, GPS, validations, etc. Not everything can be Unit tested or developed with this approach and also why starting using TDD is not right tool when you don't have all the knowledge related with the business, and the development environment.",
@@ -243,8 +243,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 29,
-    "speakerId": [28],
+    "sessionId": 28,
+    "speakerId": [27],
     "sessionType": "Talk",
     "sessionTitle": "Nearby Notifications - annoy your friends!",
     "sessionDescription": "Nearby Notifications is a feature allowing developers to tie an app or website to a BLE beacon and create contextual notifications, even if the app is not installed. It is a game changer for beacons support on Android. In this talk, I will explain how iBeacons and Eddystone beacons work and show how to use them with Nearby APIs. I will also share my experience from projects where we have used this technology.",
@@ -252,8 +252,8 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 30,
-    "speakerId": [29, 30],
+    "sessionId": 29,
+    "speakerId": [28, 29],
     "sessionType": "Talk",
     "sessionTitle": "Mobile Apps Delivered Via Jenkins , Are you kidd'n me ?!!",
     "sessionDescription": "We all build to SCALE.Issues faced with scaling MOBILE apps are tackled by CI.This talk is about building stable CI for exponential Growth of MOBILE APPS to cater to needs of the large and distributed mobile team working on Complex Apps along with catering to specific needs of different stakeholders(Dev,QA,PM etc) which not only helps in improving the productivity of the team or reducing dependency to great extent but also helped us in being more confident while refactoring or adding new features to the app.<br />Agenda:<br />- Pipeline<br />- Functional test setup<br />- Flavours<br />- Plugins<br />- Job-DSL<br />- E2E Tests",
@@ -261,8 +261,8 @@
     "sessionLength": 30
   },
   {
-    "sessionId": 31,
-    "speakerId": [31],
+    "sessionId": 30,
+    "speakerId": [30],
     "sessionType": "Talk",
     "sessionTitle": "Chromecast: what is it and how to start developing with this device",
     "sessionDescription": "Google Cast gets integrated into more and more TV related gadgets, but it is still best known from Chromecast, the device created only to support this particular technology. It makes it possible to extend our mobile applications to TV screens, changing a smartphone into a remote. During this presentation you will learn how Chromecast works, what Google Cast architecture looks like, what kinds of applications are possible to develop and how Google helps to improve user experience. You will also see how much work it takes to integrate Google Cast SDK into your Android app.",
