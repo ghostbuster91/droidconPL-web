@@ -126,7 +126,7 @@
     "imageUrl": "Elif-Boncuk.jpg"
   },
   {
-    "id": 11,
+    "id": 10,
     "firstName": "Egor",
     "lastName": "Andreevich",
     "websiteTitle": "Android Developer @ 1&1",
@@ -140,7 +140,7 @@
     "imageUrl": "Egor-Andreevich.jpg"
   },
   {
-    "id": 12,
+    "id": 11,
     "firstName": "Michal",
     "lastName": "Kulasinski",
     "websiteTitle": " Senior Android Engineer @ Badoo",
@@ -154,7 +154,7 @@
     "imageUrl": "Michal-Kulasinski.jpg"
   },
   {
-    "id": 13,
+    "id": 12,
     "firstName": "Anton",
     "lastName": "Rutkevich",
     "websiteTitle": "Android engineer @ Juno",
@@ -168,7 +168,7 @@
     "imageUrl": "Anton-Rutkevich.jpg"
   },
   {
-    "id": 14,
+    "id": 13,
     "firstName": "Kamil",
     "lastName": "Krzyk",
     "websiteTitle": "Mobile Software Engineer",
@@ -182,7 +182,7 @@
     "imageUrl": "Kamil-Krzyk.jpg"
   },
   {
-    "id": 15,
+    "id": 14,
     "firstName": "Dylan",
     "lastName": "Drost",
     "websiteTitle": "Karify",
@@ -196,7 +196,7 @@
     "imageUrl": "Dylan-Drost.jpg"
   },
   {
-    "id": 16,
+    "id": 15,
     "firstName": "Joe",
     "lastName": "Birch",
     "websiteTitle": "hitherejoe.com",
@@ -210,7 +210,7 @@
     "imageUrl": "Joe-Birch.jpg"
   },
   {
-    "id": 17,
+    "id": 16,
     "firstName": "Sarah",
     "lastName": "Kraynick",
     "websiteTitle": "",
@@ -224,7 +224,7 @@
     "imageUrl": "Sarah-Kraynick.jpg"
   },
   {
-    "id": 18,
+    "id": 17,
     "firstName": "Przemek",
     "lastName": "Jakubczyk",
     "websiteTitle": "Android Technical Lead @Applause",
@@ -238,7 +238,7 @@
     "imageUrl": "Przemek-Jakubczyk.jpg"
   },
   {
-    "id": 19,
+    "id": 18,
     "firstName": "Wojtek",
     "lastName": "Kaliciński",
     "websiteTitle": "Android Developer Advocate @ Google",
@@ -252,7 +252,7 @@
     "imageUrl": "Wojtek-Kalicinski.jpg"
   },
   {
-    "id": 20,
+    "id": 19,
     "firstName": "Houssem",
     "lastName": "Yahiaoui",
     "websiteTitle": "",
@@ -266,7 +266,7 @@
     "imageUrl": "Houssem-Yahiaoui.jpg"
   },
   {
-    "id": 21,
+    "id": 20,
     "firstName": "Andreas",
     "lastName": "Vourkos",
     "websiteTitle": "Mobile Software Engineer @ Pollfish",
@@ -280,7 +280,7 @@
     "imageUrl": "Andreas-Vourkos.png"
   },
   {
-    "id": 22,
+    "id": 21,
     "firstName": "Mihael",
     "lastName": "Franceković",
     "websiteTitle": " Android dev @ Five",
@@ -294,7 +294,7 @@
     "imageUrl": "Mihael-Francekovic.png"
   },
   {
-    "id": 23,
+    "id": 22,
     "firstName": "Aleksander",
     "lastName": "Piotrowski",
     "websiteTitle": "Code Monkey",
@@ -308,7 +308,7 @@
     "imageUrl": "Aleksander-Piotrowski.jpg"
   },
   {
-    "id": 24,
+    "id": 23,
     "firstName": "Sergii",
     "lastName": "Zhuk",
     "websiteTitle": "Android Software Engineer @ Zalando",
@@ -322,7 +322,7 @@
     "imageUrl": "Sergii-Zhuk.jpg"
   },
   {
-    "id": 25,
+    "id": 24,
     "firstName": "Selim",
     "lastName": "Salman",
     "websiteTitle": "Android Evangelist Engineer",
@@ -336,7 +336,7 @@
     "imageUrl": "A-Selim-Selman.jpg"
   },
   {
-    "id": 26,
+    "id": 25,
     "firstName": "Oleksandr",
     "lastName": "Tolstykh",
     "websiteTitle": "Android Developer @ Sharewire",
@@ -350,7 +350,7 @@
     "imageUrl": "Oleksandr-Tolstykh.jpg"
   },
   {
-    "id": 27,
+    "id": 26,
     "firstName": "Cristian",
     "lastName": "Gomez",
     "websiteTitle": "Developer @HugeMDE and Co-Organizer @MedelleinAndroid",
@@ -364,7 +364,7 @@
     "imageUrl": "Cristian-Gomez.jpg"
   },
   {
-    "id": 28,
+    "id": 27,
     "firstName": "Radek",
     "lastName": "Piekarz",
     "websiteTitle": "Head of mobile @ Tango Agency",
@@ -378,7 +378,7 @@
     "imageUrl": "Radek-Piekarz.jpg"
   },
   {
-    "id": 29,
+    "id": 28,
     "firstName": "Abhinandan",
     "lastName": "Kothari",
     "websiteTitle": "Devops and Mobile",
@@ -392,7 +392,7 @@
     "imageUrl": "Abhinandan-Kothari.jpg"
   },
   {
-    "id": 30,
+    "id": 29,
     "firstName": "Gurupratap",
     "lastName": "",
     "websiteTitle": "From a wanderer's perspective",
@@ -406,7 +406,7 @@
     "imageUrl": "Gurupratap.jpg"
   },
   {
-    "id": 31,
+    "id": 30,
     "firstName": "Mikołaj",
     "lastName": "Nowak",
     "websiteTitle": "ColorTv",
