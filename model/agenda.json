@@ -1,0 +1,47 @@
+[
+  {
+    "dayId": 1,
+    "dayData": [
+      {
+        "slotId": 1,
+        "slotStart": "8:00",
+        "slotEnd": "9:00",
+        "slotArray": []
+      },
+      {
+        "slotId": 2,
+        "slotStart": "9:00",
+        "slotEnd": "9:15",
+        "slotArray": []
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "dayData": [
+      {
+        "slotId": 1,
+        "slotStart": "8:00",
+        "slotEnd": "9:00",
+        "slotArray": []
+      },
+      {
+        "slotId": 2,
+        "slotStart": "9:00",
+        "slotEnd": "9:15",
+        "slotArray": []
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "dayData": [
+      {
+        "slotId": 1,
+        "slotStart": "8:00",
+        "slotEnd": "9:00",
+        "slotArray": []
+      }
+    ]
+  }
+]

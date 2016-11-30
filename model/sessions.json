@@ -81,15 +81,6 @@
     "sessionLength": 45
   },
   {
-    "sessionId": 10,
-    "speakerId": [10],
-    "sessionType": "Talk",
-    "sessionTitle": "Android Mutation Testing",
-    "sessionDescription": "One of the golden standard test coverage techniques is mutation testing. The main idea of mutation testing is to perform byte code modifications (mutations) to original Android app source code and then run app unit tests to check if they are strong enough to fail as a result of these mutations. This session discusses mutation testing techniques, and demonstrates PIT as a powerful mutation testing tool for Android apps with Demos.",
-    "sessionTags": ["Testing", "Software Quality"],
-    "sessionLength": 45
-  },
-  {
     "sessionId": 11,
     "speakerId": [11],
     "sessionType": "Talk",
@@ -249,6 +240,33 @@
     "sessionTitle": "TDD for real world apps",
     "sessionDescription": "TDD is a common practice that is not common in Android development, following the principles of clean code we can reach testable code (also Model View Presenter & Clean Architecture) . In this talk we are taking an approach for getting tested components for handling view, view's logic, http connections, GPS, validations, etc. Not everything can be Unit tested or developed with this approach and also why starting using TDD is not right tool when you don't have all the knowledge related with the business, and the development environment.",
     "sessionTags": ["Testing"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 29,
+    "speakerId": [28],
+    "sessionType": "Talk",
+    "sessionTitle": "Nearby Notifications - annoy your friends!",
+    "sessionDescription": "Nearby Notifications is a feature allowing developers to tie an app or website to a BLE beacon and create contextual notifications, even if the app is not installed. It is a game changer for beacons support on Android. In this talk, I will explain how iBeacons and Eddystone beacons work and show how to use them with Nearby APIs. I will also share my experience from projects where we have used this technology.",
+    "sessionTags": ["Libraries", "Raw coding in Java!"],
+    "sessionLength": 45
+  },
+  {
+    "sessionId": 30,
+    "speakerId": [29, 30],
+    "sessionType": "Talk",
+    "sessionTitle": "Mobile Apps Delivered Via Jenkins , Are you kidd'n me ?!!",
+    "sessionDescription": "We all build to SCALE.Issues faced with scaling MOBILE apps are tackled by CI.This talk is about building stable CI for exponential Growth of MOBILE APPS to cater to needs of the large and distributed mobile team working on Complex Apps along with catering to specific needs of different stakeholders(Dev,QA,PM etc) which not only helps in improving the productivity of the team or reducing dependency to great extent but also helped us in being more confident while refactoring or adding new features to the app.<br />Agenda:<br />- Pipeline<br />- Functional test setup<br />- Flavours<br />- Plugins<br />- Job-DSL<br />- E2E Tests",
+    "sessionTags": ["Mobile", "CI Pipelines", "Automation"],
+    "sessionLength": 30
+  },
+  {
+    "sessionId": 31,
+    "speakerId": [31],
+    "sessionType": "Talk",
+    "sessionTitle": "Chromecast: what is it and how to start developing with this device",
+    "sessionDescription": "Google Cast gets integrated into more and more TV related gadgets, but it is still best known from Chromecast, the device created only to support this particular technology. It makes it possible to extend our mobile applications to TV screens, changing a smartphone into a remote. During this presentation you will learn how Chromecast works, what Google Cast architecture looks like, what kinds of applications are possible to develop and how Google helps to improve user experience. You will also see how much work it takes to integrate Google Cast SDK into your Android app.",
+    "sessionTags": ["Design", "Libraries", "Devices"],
     "sessionLength": 45
   }
 ]

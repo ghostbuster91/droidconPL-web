@@ -126,20 +126,6 @@
     "imageUrl": "Elif-Boncuk.jpg"
   },
   {
-    "id": 10,
-    "firstName": "Hazem",
-    "lastName": "Saleh",
-    "websiteTitle": "Mobile Architect @ Nickelodeon",
-    "bio": "Hazem Saleh has more than eleven years of experience in Cloud, Mobile and Open Source technologies. He worked as a software engineer, technical leader, application architect, and technical consultant for many clients around the world. He is an Apache PMC (Project Management Committee) member and a person who spent many years of his life writing open source software. Beside being the author of the \"JavaScript Unit Testing\" book, \"JavaScript Mobile Application Development\" book, \"Pro JSF and HTML5\" book and the co-author of the \"Definitive guide to Apache MyFaces\" book, Hazem is also an author of many technical articles, a developerWorks contributing author and a technical speaker in both local and international conferences such as ApacheCon North America, Geecon, JavaLand, JSFDays, CON-FESS Vienna and JavaOne. Hazem is an XIBMer, he worked in IBM for ten years. Now, He is working for Nickelodeon New York as an Android Mobile Architect. He is also an OpenGroup Master Certified Specialist.",
-    "websiteLink": "",
-    "facebookLink": "",
-    "twitterHandler": "https://twitter.com/hazems",
-    "githubLink": "",
-    "linkedIn": "https://www.linkedin.com/in/hazemsaleh",
-    "googlePlus": "",
-    "imageUrl": "Hazem-Saleh.jpg"
-  },
-  {
     "id": 11,
     "firstName": "Egor",
     "lastName": "Andreevich",
@@ -376,6 +362,62 @@
     "linkedIn": "https://co.linkedin.com/in/iyubinest",
     "googlePlus": "https://plus.google.com/u/0/107268547924564622941",
     "imageUrl": "Cristian-Gomez.jpg"
+  },
+  {
+    "id": 28,
+    "firstName": "Radek",
+    "lastName": "Piekarz",
+    "websiteTitle": "Head of mobile @ Tango Agency",
+    "bio": "Head of Mobile at Tango Agency and Android developer. Big fan of reactive programming and design patterns. In his free time, he is developing Scrobble FM application, which has been recognized in competitions conducted by the portals AntyApps.pl and Android.com.pl. Besides programming, his time is effectively fulfilled by the culinary experiments and photography.",
+    "websiteLink": "http://tango.agency",
+    "facebookLink": "https://www.facebook.com/radek.piekarz",
+    "twitterHandler": "https://twitter.com/radzio",
+    "githubLink": "https://github.com/radzio",
+    "linkedIn": "https://linkedin.com/in/radekpiekarz",
+    "googlePlus": "https://plus.google.com/+RadoslawPiekarz",
+    "imageUrl": "Radek-Piekarz.jpg"
+  },
+  {
+    "id": 29,
+    "firstName": "Abhinandan",
+    "lastName": "Kothari",
+    "websiteTitle": "Devops and Mobile",
+    "bio": "Abhinandan is Android Engineers at Go-Jek Engineering. He was in devops team previously before transitioning to android and now he is developing Android Apps and the CI/CD setup for the iOS/Android builds at Go-Jek, Indonesia",
+    "websiteLink": "http://abhinandankothari.com/",
+    "facebookLink": "https://www.facebook.com/abhinandankothari",
+    "twitterHandler": "https://twitter.com/abhinandan",
+    "githubLink": "https://github.com/abhinandankothari",
+    "linkedIn": "https://www.linkedin.com/in/abhinandankothari",
+    "googlePlus": "https://plus.google.com/u/1/+AbhinandanKothari12",
+    "imageUrl": "Abhinandan-Kothari.jpg"
+  },
+  {
+    "id": 30,
+    "firstName": "Gurupratap",
+    "lastName": "",
+    "websiteTitle": "From a wanderer's perspective",
+    "bio": "Gurupratap is a product engineer working at an Indonesian startup called Go-Jek. Currently he is working as an android developer and has worked on the Continuous Integration setup of Android/iOS apps",
+    "websiteLink": "http://gurupratap91.github.io/",
+    "facebookLink": "https://www.facebook.com/gurupratap91",
+    "twitterHandler": "https://twitter.com/gurupratap91",
+    "githubLink": "https://github.com/gurupratap",
+    "linkedIn": "https://www.linkedin.com/in/gurupratap",
+    "googlePlus": "https://plus.google.com/106227185824898840596",
+    "imageUrl": "Gurupratap.jpg"
+  },
+  {
+    "id": 31,
+    "firstName": "Mikołaj",
+    "lastName": "Nowak",
+    "websiteTitle": "ColorTv",
+    "bio": "I’m Android Developer living in Krakow and working in ColorTv where we are focused on Tv related technologies like AndroidTv, FireTv, AppleTv, RokuTv and Chromecast. I do enjoy learning new technologies and doing some cool stuff with them. In private I love to travel and I can’t live without visiting some new places every few months.",
+    "websiteLink": "https://www.colortv.com/",
+    "facebookLink": "https://www.facebook.com/Mikolaj1.Nowak",
+    "twitterHandler": "",
+    "githubLink": "https://github.com/mikikrk",
+    "linkedIn": "https://www.linkedin.com/in/miko%C5%82aj-nowak-b7916585",
+    "googlePlus": "",
+    "imageUrl": "Mikolaj-Nowak.jpg"
   }
 
 ]
