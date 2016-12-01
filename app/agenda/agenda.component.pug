@@ -1,0 +1,77 @@
+section#agenda-header.first-section.green-background
+  .container
+    .row
+      .col-xs-12.section-header
+        .section-title
+          | Agenda
+        .section-line: hr
+
+mixin slotTime(slotStart, slotEnd)
+  .row
+    .col-xs-12
+      .slot-header
+        hr.header-line
+        .hour #{slotStart} - #{slotEnd}
+        hr.header-line
+
+mixin slotHeader(img, slotTitle, speakerName, speakerTitle, speakerPhoto, talkTitle)
+  //- Image and title of a slot that doesn't have talks ( lunch, registration etc )
+  if img
+    .slot-img
+      img(src=img)
+    .slot-title #{slotTitle}
+  //- Speaker data from a slot
+  if (speakerPhoto)
+    .slot-photo
+      img(src=speakerPhoto)
+  if speakerName
+    .slot-name #{speakerName}
+  if speakerTitle
+    .slot-title2 #{speakerTitle}
+  if talkTitle
+    .slot-talk-title #{talkTitle}
+
+mixin slotDescription(slotDescription)
+  if slotDescription
+    .slot-desc #{slotDescription}
+
+section#agenda-table.light-background
+  #green-patch
+  .container
+    .row
+      .col-xs-12
+        tabs
+          tab(tabTitle="8.12.2016")
+            agendaTable(tableData="1")
+            .my-agenda(*ngFor="let slot of agendaThursday")
+              +slotTime("{{slot.slotStart}}", "{{slot.slotEnd}}")
+              .row.row-centered
+                .col-xs-4.col-centered(*ngFor="let oneSlot of slot.slotArray")
+                  .one-slot
+                    +slotHeader(
+                      "{{slotImg(oneSlot.slotPicture)}}",
+                      "{{oneSlot.slotTitle}}",
+                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).firstName + ' ' + getSpeaker(oneSlot.slotSpeaker).lastName : null}}",
+                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).websiteTitle : null}}",
+                      "{{speakers[oneSlot.slotSpeaker - 1] ? getSpeakerImg(speakers[oneSlot.slotSpeaker - 1].imageUrl) : ''}}",
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}"
+                    )
+                    +slotDescription("{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}")
+          tab(tabTitle="9.12.2016")
+            agendaTable(tableData="2")
+            .my-agenda(*ngFor="let slot of agendaFriday")
+              +slotTime("{{slot.slotStart}}", "{{slot.slotEnd}}")
+              .row.row-centered
+                .col-xs-4.col-centered(*ngFor="let oneSlot of slot.slotArray")
+                  .one-slot
+                    +slotHeader(
+                      "{{slotImg(oneSlot.slotPicture)}}",
+                      "{{oneSlot.slotTitle}}",
+                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).firstName + ' ' + getSpeaker(oneSlot.slotSpeaker).lastName : ''}}",
+                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).websiteTitle : ''}}",
+                      "{{speakers[oneSlot.slotSpeaker - 1] ? getSpeakerImg(speakers[oneSlot.slotSpeaker - 1].imageUrl) : ''}}",
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : ''}}"
+                    )
+                    +slotDescription("{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : ''}}")
+          tab(tabTitle="10.12.2016")
+            agendaTable(tableData="3")

@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         test: /\.styl$/,
-        loaders: ['style-loader', 'css-loader', 'stylus-loader'],
+        loader: ExtractTextPlugin.extract('css-loader!stylus-loader'),
         include: helpers.root('..')
       },
       {

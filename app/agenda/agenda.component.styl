@@ -1,0 +1,86 @@
+@import "../_variables.styl";
+
+section#agenda-header
+  padding-bottom: 6px
+
+section#agenda-table
+  min-height: 350px
+  padding: 0
+  #green-patch
+    height: 50px
+    width: 100%
+    background-color: colGreen
+  .col-centered
+    display: inline-table
+
+  #agenda-list
+    list-style-type: none
+    height: 50px
+    background-color: colGreen
+    margin: 0
+    padding-left: 10px;
+    position: relative;
+    top: -50px;
+    .agenda-item
+      width: 30%
+      float: left
+      color: colLight
+      font-weight: 700
+      line-height: 50px
+      text-align: center
+      cursor: pointer
+      @media lg
+        width: 160px
+
+      &.active
+        background-color: colLight
+        color: colGreen
+        border-radius: 17px 17px 0 0
+        font-family: "nerisblack", Helvetica, Arial, sans-serif
+  .table-header
+    text-align: center
+    color: colGreen
+    font-family: "nerisblack", Helvetica, Arial, sans-serif
+    font-size: 24px
+    margin-bottom: 50px
+  .slot-header
+    height:20px
+    text-align: center
+    .header-line
+      width: 42%
+      display: inline-block
+      vertical-align: middle
+      border-top: 2px solid colDark
+    .hour
+      width: 16%
+      display: inline-block
+      vertical-align: middle
+      font-weight: 700
+      font-size: 24px
+  .one-slot
+    min-height: 100px
+    text-align: center
+    padding: 40px 0 0
+    .slot-title
+      font-weight: 700
+      text-align: center
+      padding: 5px 0
+    .slot-photo img
+      width: 120px
+      border-radius: 100%
+      float: left
+      margin-right: 20px
+      margin-bottom: 40px
+    .slot-name, .slot-title2
+      text-align: left
+      font-size: 16px
+      font-weight: 700
+    .slot-talk-title
+      text-align: left
+      font-size: 18px
+      margin: 20px 0
+      font-weight: 700
+    .slot-desc
+      font-size: 16px
+      text-align: left
+      clear: both
