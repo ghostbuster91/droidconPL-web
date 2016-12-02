@@ -8,19 +8,19 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "Registration",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -34,19 +34,19 @@
       {
         "slotTitle": "Official Opening",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "-",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "-",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -112,19 +112,19 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "Coffee Break",
         "slotPicture": "agenda_coffee.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -378,7 +378,7 @@
       {
         "slotTitle": "Gate Opening",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
