@@ -8,19 +8,19 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "Registration",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -32,21 +32,21 @@
     "slotEnd": "9:15",
     "slotArray": [
       {
-        "slotTitle": "Official Opening",
+        "slotTitle": "Official Opening in Room A",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "-",
+        "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "-",
+        "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -112,19 +112,19 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "Coffee Break",
         "slotPicture": "agenda_coffee.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       }
     ]
@@ -318,14 +318,14 @@
     "slotEnd": "17:00",
     "slotArray": [
       {
-        "slotTitle": "",
-        "slotPicture": "",
+        "slotTitle": "Closing Day 1 in Room A",
+        "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "Closing Day 1",
-        "slotPicture": "agenda_hello.png",
+        "slotTitle": "",
+        "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },
@@ -378,7 +378,7 @@
       {
         "slotTitle": "Gate Opening",
         "slotPicture": "agenda_hello.png",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
@@ -656,7 +656,7 @@
     "slotEnd": "17:00",
     "slotArray": [
       {
-        "slotTitle": "Closing & Goodbye",
+        "slotTitle": "Closing & Goodbye in Room A",
         "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""

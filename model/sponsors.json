@@ -5,7 +5,7 @@
     "sponsorUrl": "https://www.pluralsight.com/",
     "sponsorLogo": "pluralsight-logo_400x400.png",
     "sponsorTitle": "Pluralsight",
-    "sponsorPackage": "Bronze"
+    "sponsorPackage": "Bronze Sponsor"
   },
   {
     "sponsorId": 2,
@@ -13,7 +13,7 @@
     "sponsorUrl": "https://www.jetbrains.com/",
     "sponsorLogo": "jetbrains-logo_400x400.png",
     "sponsorTitle": "JetBrains",
-    "sponsorPackage": "Virtual"
+    "sponsorPackage": "Product"
   },
   {
     "sponsorId": 3,
@@ -29,6 +29,30 @@
     "sponsorUrl": "https://tech.zalando.com/",
     "sponsorLogo": "zalando-logo_400x400.png",
     "sponsorTitle": "Zalando Tech",
+    "sponsorPackage": "Travel"
+  },
+  {
+    "sponsorId": 5,
+    "sponsorName": "infiniteBook",
+    "sponsorUrl": "http://infinitebook.pt/",
+    "sponsorLogo": "infinite-book_400x400.png",
+    "sponsorTitle": "infinite Book",
+    "sponsorPackage": "Product"
+  },
+  {
+    "sponsorId": 6,
+    "sponsorName": "Stickers Craft",
+    "sponsorUrl": "",
+    "sponsorLogo": "stickers-craft_400x400.png",
+    "sponsorTitle": "Stickers Craft",
+    "sponsorPackage": "Product"
+  },
+  {
+    "sponsorId": 7,
+    "sponsorName": "Five",
+    "sponsorUrl": "http://five.agency",
+    "sponsorLogo": "five-logo_400x400.png",
+    "sponsorTitle": "Five",
     "sponsorPackage": "Travel"
   }
 ]
