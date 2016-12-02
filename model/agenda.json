@@ -32,19 +32,19 @@
     "slotEnd": "9:15",
     "slotArray": [
       {
-        "slotTitle": "Official Opening",
+        "slotTitle": "Official Opening in Room A",
         "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "-",
+        "slotTitle": "",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "-",
+        "slotTitle": "",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -318,14 +318,14 @@
     "slotEnd": "17:00",
     "slotArray": [
       {
-        "slotTitle": "",
-        "slotPicture": "",
+        "slotTitle": "Closing Day 1 in Room A",
+        "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "Closing Day 1",
-        "slotPicture": "agenda_hello.png",
+        "slotTitle": "",
+        "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },
@@ -656,7 +656,7 @@
     "slotEnd": "17:00",
     "slotArray": [
       {
-        "slotTitle": "Closing & Goodbye",
+        "slotTitle": "Closing & Goodbye in Room A",
         "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
