@@ -7,13 +7,26 @@ section#sponsors.white-background
           br
           | Sponsors
         .section-line: hr
-      .col-xs-12
-        p.section-paragraph
-          | Meet our great sponsors who help us make this event great!
+
     .row.row-centered
-      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of sponsors")
+      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of bronzeSponsors")
         .partner-bracket.tooltip
           span.tooltiptext {{sponsor.sponsorName}}
+          .sponsor-category {{ sponsor.sponsorPackage }}
+          a(href="{{sponsor.sponsorUrl}}" target="_blank")
+            img(src="{{sponsorLogo(sponsor.sponsorLogo)}}" alt="{{sponsor.sponsorName}}")
+    .row.row-centered
+      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of productPartners")
+        .partner-bracket.tooltip
+          span.tooltiptext {{sponsor.sponsorName}}
+          .sponsor-category {{ sponsor.sponsorPackage }} Partner
+          a(href="{{sponsor.sponsorUrl}}" target="_blank")
+            img(src="{{sponsorLogo(sponsor.sponsorLogo)}}" alt="{{sponsor.sponsorName}}")
+    .row.row-centered
+      .col-xs-6.col-md-4.col-lg-3.col-centered(*ngFor="let sponsor of travelPartners")
+        .partner-bracket.tooltip
+          span.tooltiptext {{sponsor.sponsorName}}
+          .sponsor-category {{ sponsor.sponsorPackage }} Partner
           a(href="{{sponsor.sponsorUrl}}" target="_blank")
             img(src="{{sponsorLogo(sponsor.sponsorLogo)}}" alt="{{sponsor.sponsorName}}")
 
