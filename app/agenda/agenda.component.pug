@@ -29,11 +29,12 @@ mixin slotHeader(img, slotTitle, speakerName, speakerTitle, speakerPhoto, talkTi
   if speakerTitle
     .slot-title2 #{speakerTitle}
   if talkTitle
-    .slot-talk-title #{talkTitle}
+    .slot-talk-title(innerHTML=talkTitle)
 
 mixin slotDescription(slotDescription)
   if slotDescription
-    .slot-desc #{slotDescription}
+    //- .slot-desc #{slotDescription}
+    .slot-desc(innerHTML=slotDescription)
 
 section#agenda-table.light-background
   #green-patch
