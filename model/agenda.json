@@ -1,46 +1,677 @@
 [
   {
     "dayId": 1,
-    "dayData": [
+    "slotId": 1,
+    "slotStart": "8:00",
+    "slotEnd": "9:00",
+    "slotArray": [
       {
-        "slotId": 1,
-        "slotStart": "8:00",
-        "slotEnd": "9:00",
-        "slotArray": []
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
       },
       {
-        "slotId": 2,
-        "slotStart": "9:00",
-        "slotEnd": "9:15",
-        "slotArray": []
+        "slotTitle": "Registration",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 2,
+    "slotStart": "9:00",
+    "slotEnd": "9:15",
+    "slotArray": [
+      {
+        "slotTitle": "Official Opening",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "-",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "-",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 3,
+    "slotStart": "9:15",
+    "slotEnd": "10:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [24],
+        "slotSession": 25
+      },
+      {
+        "slotTitle": "Opening Talk in Room A",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Opening Talk in Room A",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 4,
+    "slotStart": "10:10",
+    "slotEnd": "10:55",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [6],
+        "slotSession": 6
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [14],
+        "slotSession": 14
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [16],
+        "slotSession": 16
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 5,
+    "slotStart": "10:55",
+    "slotEnd": "11:15",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Coffee Break",
+        "slotPicture": "agenda_coffee.png",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": "",
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 6,
+    "slotStart": "11:15",
+    "slotEnd": "12:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [12],
+        "slotSession": 12
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [30],
+        "slotSession": 30
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [17],
+        "slotSession": 17
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 7,
+    "slotStart": "12:10",
+    "slotEnd": "12:40",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [23],
+        "slotSession": 24
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [11],
+        "slotSession": 11
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [19],
+        "slotSession": 20
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 8,
+    "slotStart": "12:40",
+    "slotEnd": "14:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Lunch Break",
+        "slotPicture": "agenda_lunch.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 9,
+    "slotStart": "14:00",
+    "slotEnd": "14:45",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [22],
+        "slotSession": 23
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [8],
+        "slotSession": 8
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [2],
+        "slotSession": 2
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 10,
+    "slotStart": "14:55",
+    "slotEnd": "15:40",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [25],
+        "slotSession": 26
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [5],
+        "slotSession": 5
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [7],
+        "slotSession": 7
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 11,
+    "slotStart": "15:40",
+    "slotEnd": "16:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Coffee Break",
+        "slotPicture": "agenda_coffee.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 12,
+    "slotStart": "16:00",
+    "slotEnd": "16:45",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [13],
+        "slotSession": 13
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [3],
+        "slotSession": 3
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [20],
+        "slotSession": 21
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 13,
+    "slotStart": "16:45",
+    "slotEnd": "17:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Closing Day 1",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 1,
+    "slotId": 14,
+    "slotStart": "18:00",
+    "slotEnd": "???",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "After-Party",
+        "slotPicture": "agenda_drink.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
       }
     ]
   },
   {
     "dayId": 2,
-    "dayData": [
+    "slotId": 1,
+    "slotStart": "8:45",
+    "slotEnd": "9:15",
+    "slotArray": [
       {
-        "slotId": 1,
-        "slotStart": "8:00",
-        "slotEnd": "9:00",
-        "slotArray": []
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
       },
       {
-        "slotId": 2,
-        "slotStart": "9:00",
-        "slotEnd": "9:15",
-        "slotArray": []
+        "slotTitle": "Gate Opening",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": "",
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
       }
     ]
   },
   {
-    "dayId": 3,
-    "dayData": [
+    "dayId": 2,
+    "slotId": 2,
+    "slotStart": "9:15",
+    "slotEnd": "10:00",
+    "slotArray": [
       {
-        "slotId": 1,
-        "slotStart": "8:00",
-        "slotEnd": "9:00",
-        "slotArray": []
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [4],
+        "slotSession": 4
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [15],
+        "slotSession": 15
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [10],
+        "slotSession": 10
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 3,
+    "slotStart": "10:05",
+    "slotEnd": "10:35",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [21],
+        "slotSession": 22
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 4,
+    "slotStart": "10:35",
+    "slotEnd": "11:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Coffee Break",
+        "slotPicture": "agenda_coffee.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 5,
+    "slotStart": "11:00",
+    "slotEnd": "11:45",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [9],
+        "slotSession": 9
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [1],
+        "slotSession": 1
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 6,
+    "slotStart": "11:50",
+    "slotEnd": "12:35",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [26],
+        "slotSession": 27
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [27],
+        "slotSession": 28
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 7,
+    "slotStart": "12:35",
+    "slotEnd": "14:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Lunch Break",
+        "slotPicture": "agenda_lunch.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 8,
+    "slotStart": "14:00",
+    "slotEnd": "15:00",
+    "slotArray": [
+      {
+        "slotTitle": "Barcamp Sessions",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Barcamp Sessions",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Barcamp Sessions",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 9,
+    "slotStart": "15:00",
+    "slotEnd": "15:45",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [5],
+        "slotSession": 18
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "TBA",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 10,
+    "slotStart": "15:45",
+    "slotEnd": "16:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Coffee Break",
+        "slotPicture": "agenda_coffee.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 11,
+    "slotStart": "16:00",
+    "slotEnd": "16:45",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [18],
+        "slotSession": 19
+      },
+      {
+        "slotTitle": "Closing Keynote in Room A",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Closing Keynote in Room A",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 2,
+    "slotId": 12,
+    "slotStart": "16:45",
+    "slotEnd": "17:00",
+    "slotArray": [
+      {
+        "slotTitle": "Closing & Goodbye",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
       }
     ]
   }
