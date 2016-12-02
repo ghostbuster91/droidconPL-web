@@ -64,13 +64,13 @@
         "slotSession": 25
       },
       {
-        "slotTitle": "",
+        "slotTitle": "Opening Talk in Room A",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "",
+        "slotTitle": "Opening Talk in Room A",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -190,7 +190,7 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": "",
+        "slotSpeaker": [],
         "slotSession": ""
       },
       {
@@ -376,7 +376,7 @@
         "slotSession": ""
       },
       {
-        "slotTitle": "Opening",
+        "slotTitle": "Gate Opening",
         "slotPicture": "agenda_hello.png",
         "slotSpeaker": "",
         "slotSession": ""
@@ -428,13 +428,13 @@
         "slotSession": 22
       },
       {
-        "slotTitle": "",
+        "slotTitle": "TBA",
         "slotPicture": "",
-        "slotSpeaker": [28,29],
-        "slotSession": 29
+        "slotSpeaker": [],
+        "slotSession": ""
       },
       {
-        "slotTitle": "",
+        "slotTitle": "TBA",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -486,7 +486,7 @@
         "slotSession": 1
       },
       {
-        "slotTitle": "",
+        "slotTitle": "TBA",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -512,7 +512,7 @@
         "slotSession": 28
       },
       {
-        "slotTitle": "",
+        "slotTitle": "TBA",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -552,8 +552,8 @@
     "slotEnd": "15:00",
     "slotArray": [
       {
-        "slotTitle": "",
-        "slotPicture": "",
+        "slotTitle": "Barcamp Sessions",
+        "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       },
@@ -564,8 +564,8 @@
         "slotSession": ""
       },
       {
-        "slotTitle": "",
-        "slotPicture": "",
+        "slotTitle": "Barcamp Sessions",
+        "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       }
@@ -636,13 +636,13 @@
         "slotSession": 19
       },
       {
-        "slotTitle": "",
+        "slotTitle": "Closing Keynote in Room A",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "",
+        "slotTitle": "Closing Keynote in Room A",
         "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
@@ -656,14 +656,14 @@
     "slotEnd": "17:00",
     "slotArray": [
       {
-        "slotTitle": "",
-        "slotPicture": "",
+        "slotTitle": "Closing & Goodbye",
+        "slotPicture": "agenda_hello.png",
         "slotSpeaker": [],
         "slotSession": ""
       },
       {
-        "slotTitle": "Closing & Goodbye",
-        "slotPicture": "agenda_hello.png",
+        "slotTitle": "",
+        "slotPicture": "",
         "slotSpeaker": [],
         "slotSession": ""
       },

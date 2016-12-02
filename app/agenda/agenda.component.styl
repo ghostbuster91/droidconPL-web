@@ -4,7 +4,7 @@ section#agenda-header
   padding-bottom: 6px
 
 section#agenda-table
-  min-height: 350px
+  min-height: 50vh
   padding: 0
   #green-patch
     height: 50px
@@ -43,6 +43,8 @@ section#agenda-table
     font-family: "nerisblack", Helvetica, Arial, sans-serif
     font-size: 24px
     margin-bottom: 50px
+  .row-adjust
+    margin: 30px 0
   .slot-header
     height:20px
     text-align: center
@@ -65,12 +67,15 @@ section#agenda-table
       font-weight: 700
       text-align: center
       padding: 5px 0
-    .slot-photo img
-      width: 120px
-      border-radius: 100%
-      float: left
-      margin-right: 20px
-      margin-bottom: 40px
+      margin-bottom: -40px
+    .slot-photo
+      // margin-top: 40px
+      img
+        width: 120px
+        border-radius: 100%
+        float: left
+        margin-right: 20px
+        margin-bottom: 40px
     .slot-name, .slot-title2
       text-align: left
       font-size: 16px
@@ -83,4 +88,6 @@ section#agenda-table
     .slot-desc
       font-size: 16px
       text-align: left
-      clear: both
+      // clear: both
+      float: left
+      padding: 0 10px
