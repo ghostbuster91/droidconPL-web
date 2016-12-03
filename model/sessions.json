@@ -268,5 +268,45 @@
     "sessionDescription": "Google Cast gets integrated into more and more TV related gadgets, but it is still best known from Chromecast, the device created only to support this particular technology. It makes it possible to extend our mobile applications to TV screens, changing a smartphone into a remote. During this presentation you will learn how Chromecast works, what Google Cast architecture looks like, what kinds of applications are possible to develop and how Google helps to improve user experience. You will also see how much work it takes to integrate Google Cast SDK into your Android app.",
     "sessionTags": ["Design", "Libraries", "Devices"],
     "sessionLength": 45
+  },
+  {
+    "sessionId": 31,
+    "speakerId": [4],
+    "sessionType": "Workshop",
+    "sessionTitle": "Prototyping an Android Wear Application",
+    "sessionDescription": "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch and Android Wear we finally get the whole picture of the entire list of products and their features. Now, we can talk about how we can design an experience for this type of devices. Every platform has it's own design principles and approaches. But, in the core, they all need to follow same core rules. So, how we combine this core requirements with Google's Material Design and use them on an Android Wear device? Let's learn and prototype!",
+    "sessionTags": ["Wearables", "Material Design"],
+    "sessionLength": 1.5,
+    "workshopCapacity": 24
+  },
+  {
+    "sessionId": 32,
+    "speakerId": [31],
+    "sessionType": "Workshop",
+    "sessionTitle": "Continuous Delivery with Ease",
+    "sessionDescription": "Do you create builds for your client frequently? Maybe every day? That’s good, because you can get feedback early and often… unless you do that manually, pushing APKs via mail or to some app testing platform via browser. How about testing? Do you start your app on device or emulator after every change and test nothing is broken? Look back at the time spent on these tedious tasks. How would you feel if you could spend less time and do even more at the same time? During the workshop we will create a simple application and look into how easy it is to set things up, so we don't have to spend even a minute a day to create builds for your testers. There will be tests, there will be CI and, most importantly, there will be fun and glory.",
+    "sessionTags": ["Continuous Delivery", "CI"],
+    "sessionLength": 3.5,
+    "workshopCapacity": 12
+  },
+  {
+    "sessionId": 33,
+    "speakerId": [32,33,34],
+    "sessionType": "Workshop",
+    "sessionTitle": "TDD on Android",
+    "sessionDescription": "In our team, we do write in TDD on regular basis.<br />During the workshop we will show you sample of our process and architecture.<br />We will start from unit tests and move toward android functional tests. All in extreme TDD approach. No code without tests at all!",
+    "sessionTags": ["TDD", "Unit Tests"],
+    "sessionLength": 8,
+    "workshopCapacity": 12
+  },
+  {
+    "sessionId": 34,
+    "speakerId": [35],
+    "sessionType": "Workshop",
+    "sessionTitle": "You app is on Fire(base)!",
+    "sessionDescription": "Introduction On this workshop we will find out how to impress our colleagues, by quickly building an application with shared online database… and afterwards struggle to make it secure. Brief look at the database itself, security rules, bolt complier and some ideas how to structure data. ",
+    "sessionTags": ["TDD", "Unit Tests"],
+    "sessionLength": "_",
+    "workshopCapacity": "_"
   }
 ]

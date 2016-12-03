@@ -67,9 +67,13 @@ section#workshop-list.white-background
             .talk-tags
               .talk-tag(*ngFor="let tag of workshop.sessionTags") {{ tag }}
             span.talk-description([innerHTML]="workshop.sessionDescription")
-            span.talk-length
+            .talk-length.workshop-properties
               | Workshop length:
               strong  {{ workshop.sessionLength }} h.
+              br
+              | Workshop capacity:
+              strong  {{ workshop.workshopCapacity }}
+            a.green-button(href="#" target="_blank") Register
           .col-xs-12.col-md-4.talk-speaker(*ngFor="let sessionSpeaker of workshop.speakerId")
             img.speaker-photo((click)="setSpeaker(speakers[ sessionSpeaker - 1 ])", src="{{speakerImg(speakers[ sessionSpeaker - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
             span.speaker-name {{ speakers[ sessionSpeaker - 1 ].firstName }} {{ speakers[ sessionSpeaker - 1 ].lastName }}

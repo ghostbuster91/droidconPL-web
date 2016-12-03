@@ -418,6 +418,76 @@
     "linkedIn": "https://www.linkedin.com/in/miko%C5%82aj-nowak-b7916585",
     "googlePlus": "",
     "imageUrl": "Mikolaj-Nowak.jpg"
+  },
+  {
+    "id": 31,
+    "firstName": "Maciek",
+    "lastName": "Górski",
+    "websiteTitle": "",
+    "bio": "",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
+  },
+  {
+    "id": 32,
+    "firstName": "Karol",
+    "lastName": "Kowalski",
+    "websiteTitle": "",
+    "bio": "",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
+  },
+  {
+    "id": 33,
+    "firstName": "Kasper",
+    "lastName": "Kondzielski",
+    "websiteTitle": "",
+    "bio": "",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
+  },
+  {
+    "id": 34,
+    "firstName": "Dominik",
+    "lastName": "Malantowicz",
+    "websiteTitle": "",
+    "bio": "",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
+  },
+  {
+    "id": 35,
+    "firstName": "Łukasz",
+    "lastName": "Patecki",
+    "websiteTitle": "",
+    "bio": "I worked on exciting Android apps for finance industry and public safety. Currently I am having a brief affair with firebase as a side project.",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
   }
 
 ]
