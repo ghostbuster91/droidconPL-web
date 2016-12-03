@@ -29,7 +29,7 @@
   {
     "dayId": 1,
     "slotId": 2,
-    "sessionType": "tripleSlot",
+    "sessionType": "singleSlot",
     "slotStart": "9:00",
     "slotEnd": "9:15",
     "slotArray": [
@@ -326,7 +326,7 @@
   {
     "dayId": 1,
     "slotId": 13,
-    "sessionType": "tripleSlot",
+    "sessionType": "singleSlot",
     "slotStart": "16:45",
     "slotEnd": "17:00",
     "slotArray": [
@@ -677,7 +677,7 @@
   {
     "dayId": 2,
     "slotId": 12,
-    "sessionType": "tripleSlot",
+    "sessionType": "singleSlot",
     "slotStart": "16:45",
     "slotEnd": "17:00",
     "slotArray": [
