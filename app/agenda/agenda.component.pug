@@ -14,12 +14,14 @@ mixin slotTime(slotStart, slotEnd)
         .hour #{slotStart} - #{slotEnd}
         hr.header-line
 
-mixin slotHeader(img, slotTitle, speakerName, speakerTitle, speakerPhoto, talkTitle)
+mixin slotHeader(img, slotTitle)
   //- Image and title of a slot that doesn't have talks ( lunch, registration etc )
   if img
     .slot-img
       img(src=img)
     .slot-title #{slotTitle}
+
+mixin speakerData(speakerName, speakerTitle, speakerPhoto)
   //- Speaker data from a slot
   if (speakerPhoto)
     .slot-photo
@@ -28,12 +30,11 @@ mixin slotHeader(img, slotTitle, speakerName, speakerTitle, speakerPhoto, talkTi
     .slot-name #{speakerName}
   if speakerTitle
     .slot-title2 #{speakerTitle}
-  if talkTitle
-    .slot-talk-title(innerHTML=talkTitle)
 
-mixin slotDescription(slotDescription)
+mixin slotDescription(slotTitle, slotDescription)
+  if slotTitle
+    .slot-talk-title(innerHTML=slotTitle)
   if slotDescription
-    //- .slot-desc #{slotDescription}
     .slot-desc(innerHTML=slotDescription)
 
 section#agenda-table.light-background
@@ -51,13 +52,18 @@ section#agenda-table.light-background
                   .one-slot
                     +slotHeader(
                       "{{slotImg(oneSlot.slotPicture)}}",
-                      "{{oneSlot.slotTitle}}",
-                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).firstName + ' ' + getSpeaker(oneSlot.slotSpeaker).lastName : null}}",
-                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).websiteTitle : null}}",
-                      "{{speakers[oneSlot.slotSpeaker - 1] ? getSpeakerImg(speakers[oneSlot.slotSpeaker - 1].imageUrl) : ''}}",
-                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}"
+                      "{{oneSlot.slotTitle}}"
                     )
-                    +slotDescription("{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}")
+                    .speaker-data(*ngFor="let speaker of oneSlot.slotSpeaker")
+                      +speakerData(
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).firstName + ' ' + getSpeaker(speaker).lastName : null}}",
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).websiteTitle : null}}",
+                        "{{speakers[speaker - 1] ? getSpeakerImg(speakers[speaker - 1].imageUrl) : ''}}"
+                      )
+                    +slotDescription(
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}",
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}"
+                    )
           tab(tabTitle="9.12.2016")
             agendaTable(tableData="2")
             .my-agenda(*ngFor="let slot of agendaFriday")
@@ -67,13 +73,18 @@ section#agenda-table.light-background
                   .one-slot
                     +slotHeader(
                       "{{slotImg(oneSlot.slotPicture)}}",
-                      "{{oneSlot.slotTitle}}",
-                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).firstName + ' ' + getSpeaker(oneSlot.slotSpeaker).lastName : null}}",
-                      "{{getSpeaker(oneSlot.slotSpeaker) ? getSpeaker(oneSlot.slotSpeaker).websiteTitle : null}}",
-                      "{{speakers[oneSlot.slotSpeaker - 1] ? getSpeakerImg(speakers[oneSlot.slotSpeaker - 1].imageUrl) : ''}}",
-                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}"
+                      "{{oneSlot.slotTitle}}"
                     )
-                    +slotDescription("{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}")
+                    .speaker-data(*ngFor="let speaker of oneSlot.slotSpeaker")
+                      +speakerData(
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).firstName + ' ' + getSpeaker(speaker).lastName : null}}",
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).websiteTitle : null}}",
+                        "{{speakers[speaker - 1] ? getSpeakerImg(speakers[speaker - 1].imageUrl) : ''}}"
+                      )
+                    +slotDescription(
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}",
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}"
+                    )
           tab(tabTitle="10.12.2016")
             agendaTable(tableData="3")
             .my-agenda Comming soon

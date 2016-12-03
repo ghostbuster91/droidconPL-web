@@ -62,14 +62,17 @@ section#agenda-table
   .one-slot
     min-height: 100px
     text-align: center
-    padding: 40px 0 0
+    padding: 40px 0
     .slot-title
       font-weight: 700
       text-align: center
       padding: 5px 0
       margin-bottom: -40px
+    .speaker-data
+      clear: both
     .slot-photo
-      // margin-top: 40px
+      width: 50%
+      float: left
       img
         width: 120px
         border-radius: 100%
@@ -79,15 +82,17 @@ section#agenda-table
     .slot-name, .slot-title2
       text-align: left
       font-size: 16px
+    .slot-name
       font-weight: 700
     .slot-talk-title
       text-align: left
       font-size: 18px
       margin: 20px 0
       font-weight: 700
+      @media md
+        font-size: 20px
     .slot-desc
       font-size: 16px
       text-align: left
-      // clear: both
       float: left
       padding: 0 10px

@@ -428,10 +428,10 @@
         "slotSession": 22
       },
       {
-        "slotTitle": "TBA",
+        "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": [],
-        "slotSession": ""
+        "slotSpeaker": [28,29],
+        "slotSession": 29
       },
       {
         "slotTitle": "TBA",
