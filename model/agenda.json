@@ -235,10 +235,10 @@
         "slotSession": 8
       },
       {
-        "slotTitle": "",
+        "slotTitle": "TBA",
         "slotPicture": "",
-        "slotSpeaker": [2],
-        "slotSession": 2
+        "slotSpeaker": [],
+        "slotSession": ""
       }
     ]
   },
@@ -505,10 +505,10 @@
         "slotSession": 1
       },
       {
-        "slotTitle": "TBA",
+        "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": [],
-        "slotSession": ""
+        "slotSpeaker": [2],
+        "slotSession": 2
       }
     ]
   },
