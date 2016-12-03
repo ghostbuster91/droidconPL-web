@@ -60,6 +60,19 @@ section#workshop-list.white-background
           | Workshop list
         .section-line: hr
     .row
-      .col-xs-12
-        p.section-paragraph
-          | Coming soon!
+      .col-xs-12.talk-bracket(*ngFor="let workshop of workshops")
+        .row
+          .col-xs-12.col-md-8.talk-details
+            h3.talk-title([innerHTML]="workshop.sessionTitle")
+            .talk-tags
+              .talk-tag(*ngFor="let tag of workshop.sessionTags") {{ tag }}
+            span.talk-description([innerHTML]="workshop.sessionDescription")
+            span.talk-length
+              | Workshop length:
+              strong  {{ workshop.sessionLength }} h.
+          .col-xs-12.col-md-4.talk-speaker(*ngFor="let sessionSpeaker of workshop.speakerId")
+            img.speaker-photo((click)="setSpeaker(speakers[ sessionSpeaker - 1 ])", src="{{speakerImg(speakers[ sessionSpeaker - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
+            span.speaker-name {{ speakers[ sessionSpeaker - 1 ].firstName }} {{ speakers[ sessionSpeaker - 1 ].lastName }}
+            span.speaker-title {{ speakers[ sessionSpeaker - 1 ].websiteTitle }}
+
+speaker-modal([modal]="modal")

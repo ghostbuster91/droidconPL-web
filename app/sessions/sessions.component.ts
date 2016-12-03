@@ -14,7 +14,7 @@ export class SessionsComponent {
   modal: string[] = [];
 
   constructor(sessionsService : SessionsService, speakersService : SpeakersService ) {
-    this.sessions = sessionsService.getSessions();
+    this.sessions = sessionsService.getByType('Talk');
     this.speakers = speakersService.getSpeakers();
   }
 
