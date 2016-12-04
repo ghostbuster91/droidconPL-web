@@ -437,15 +437,15 @@
     "id": 32,
     "firstName": "Karol",
     "lastName": "Kowalski",
-    "websiteTitle": "",
-    "bio": "",
-    "websiteLink": "",
-    "facebookLink": "",
-    "twitterHandler": "",
-    "githubLink": "",
+    "websiteTitle": "OrdonTeam",
+    "bio": "Android Developer. Works in Kotlin, hates Java. He's a really poor developer, so he has to test his code all the time. He also cares about automation and spreading knowledge.",
+    "websiteLink": "https://github.com/OrdonTeam",
+    "facebookLink": "https://www.facebook.com/karol.kowalski.5070",
+    "twitterHandler": "https://twitter.com/ordon1313",
+    "githubLink": "https://github.com/OrdonTeam",
     "linkedIn": "",
     "googlePlus": "",
-    "imageUrl": "default-speaker.png"
+    "imageUrl": "Karol-Kowalski.jpg"
   },
   {
     "id": 33,

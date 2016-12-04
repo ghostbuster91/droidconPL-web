@@ -102,8 +102,8 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": [16],
-        "slotSession": 16
+        "slotSpeaker": [],
+        "slotSession": ""
       }
     ]
   },
@@ -532,10 +532,10 @@
         "slotSession": 28
       },
       {
-        "slotTitle": "TBA",
+        "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": [],
-        "slotSession": ""
+        "slotSpeaker": [16],
+        "slotSession": 16
       }
     ]
   },
