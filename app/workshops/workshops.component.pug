@@ -40,17 +40,47 @@ section#workshops.first-section.light-background
   #workshop-organizer.container
     .row.row-centered
       .col-xs-12
-        .section-subtitle Main organizer
+        .section-subtitle Main organizer & Hackathon prize sponsor
       .col-xs-6.col-md-4.col-lg-3.col-centered
         .partner-bracket.tooltip
           span.tooltiptext IG Kraków
           a(href="https://www.ig.com" target="_blank")
             img(src="{{IGlogo}}" alt="IG logo")
 
-  #registration.container
+section#workshop-register.black-background
+  .container
+    .row
+      .col-xs-12.section-header
+        .section-title Register now!
+        .section-line: hr
+    .row
+      .col-xs-12.col-lg-6
+        .section-subtitle Hackathon
+        .section-paragraph
+          | Take your laptop and your favourite coding tools.
+          | Make the best algorithm and win Google Pixel!
+          br
+          | Hackathon will take the whole day, from 9:00AM to 6:00PM.
+      .col-xs-12.col-lg-6
+        .section-subtitle Workshop
+        .section-paragraph
+          | Gain new skills during Android workshops.
+          br
+          | Each workshop has different timetable.
+          | Make sure to plan your day according to the agenda (so nothing overlaps).
+    .row.row-centered
+      .col-xs-12.col-centered
+        a.green-button(href="https://www.eventbrite.com/e/droidcon-krakow-2016-3rd-edition-tickets-27664872378" target="_blank") Register now!
     .row
       .col-xs-12
-        a.green-button(href="#" target="_blank") Registration Soon!
+        p.section-paragraph
+          | Each workshop ticket costs 15€ (plus fees).
+          | But if you already have your droidcon Kraków 2016 ticket,
+          | you can get a Hackathon ticket for free.
+          | Contact us on contact@droidcon.pl, send us your ticket number
+          | and we will give you the 100% discount code.
+        p.section-paragraph
+          | Note that each workshop and hackathon requires a seperate registration.
 
 section#workshop-list.white-background
   .container
@@ -73,10 +103,12 @@ section#workshop-list.white-background
               br
               | Workshop capacity:
               strong  {{ workshop.workshopCapacity }}
-            a.green-button(href="#" target="_blank") Register
-          .col-xs-12.col-md-4.talk-speaker(*ngFor="let sessionSpeaker of workshop.speakerId")
-            img.speaker-photo((click)="setSpeaker(speakers[ sessionSpeaker - 1 ])", src="{{speakerImg(speakers[ sessionSpeaker - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
-            span.speaker-name {{ speakers[ sessionSpeaker - 1 ].firstName }} {{ speakers[ sessionSpeaker - 1 ].lastName }}
-            span.speaker-title {{ speakers[ sessionSpeaker - 1 ].websiteTitle }}
+            a.green-button(href="https://www.eventbrite.com/e/droidcon-krakow-2016-3rd-edition-tickets-27664872378#tickets" target="_blank") Register
+          .col-xs-12.col-md-4
+            .row
+              .col-xs-12.talk-speaker(*ngFor="let sessionSpeaker of workshop.speakerId")
+                img.speaker-photo((click)="setSpeaker(speakers[ sessionSpeaker - 1 ])", src="{{speakerImg(speakers[ sessionSpeaker - 1 ].imageUrl)}}", data-toggle='modal', data-target='#speakerModal')
+                span.speaker-name {{ speakers[ sessionSpeaker - 1 ].firstName }} {{ speakers[ sessionSpeaker - 1 ].lastName }}
+                span.speaker-title {{ speakers[ sessionSpeaker - 1 ].websiteTitle }}
 
 speaker-modal([modal]="modal")
