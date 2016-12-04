@@ -124,9 +124,6 @@ export class AgendaTable {
     if (data == '2'){
       return require('./agenda-day.component.pug');
     }
-    if (data == '3'){
-      return require('./agenda-day.component.pug');
-    }
   }
 
 }

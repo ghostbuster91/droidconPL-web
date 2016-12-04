@@ -700,5 +700,167 @@
         "slotSession": ""
       }
     ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 1,
+    "sessionType": "singleSlot",
+    "slotStart": "8:30",
+    "slotEnd": "9:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Gate Opening",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 2,
+    "sessionType": "tripleSlot",
+    "slotStart": "9:00",
+    "slotEnd": "12:30",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [31],
+        "slotSession": 32
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [32,33,34],
+        "slotSession": 33
+      },
+      {
+        "slotTitle": "Hackathon",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 3,
+    "sessionType": "singleSlot",
+    "slotStart": "12:30",
+    "slotEnd": "13:30",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Lunch Break",
+        "slotPicture": "agenda_lunch.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 4,
+    "sessionType": "tripleSlot",
+    "slotStart": "13:30",
+    "slotEnd": "15:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [4],
+        "slotSession": 31
+      },
+      {
+        "slotTitle": "'TDD on Android' continues",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Hackathon continues",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 5,
+    "sessionType": "tripleSlot",
+    "slotStart": "15:00",
+    "slotEnd": "18:00",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "'TDD on Android' continues",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Hackathon continues",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
+  },
+  {
+    "dayId": 3,
+    "slotId": 6,
+    "sessionType": "singleSlot",
+    "slotStart": "18:00",
+    "slotEnd": "???",
+    "slotArray": [
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "Hackathon summary & networking beer",
+        "slotPicture": "agenda_hello.png",
+        "slotSpeaker": [],
+        "slotSession": ""
+      },
+      {
+        "slotTitle": "",
+        "slotPicture": "",
+        "slotSpeaker": [],
+        "slotSession": ""
+      }
+    ]
   }
 ]

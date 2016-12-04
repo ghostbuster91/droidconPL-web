@@ -87,4 +87,22 @@ section#agenda-table.light-background
                     )
           tab(tabTitle="10.12.2016")
             agendaTable(tableData="3")
-            .my-agenda Comming soon
+            .my-agenda(*ngFor="let slot of agendaSaturday")
+              +slotTime("{{slot.slotStart}}", "{{slot.slotEnd}}")
+              .row.row-adjust
+                .col-xs-4(*ngFor="let oneSlot of slot.slotArray")
+                  .one-slot
+                    +slotHeader(
+                      "{{slotImg(oneSlot.slotPicture)}}",
+                      "{{oneSlot.slotTitle}}"
+                    )
+                    .speaker-data(*ngFor="let speaker of oneSlot.slotSpeaker")
+                      +speakerData(
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).firstName + ' ' + getSpeaker(speaker).lastName : null}}",
+                        "{{getSpeaker(speaker) ? getSpeaker(speaker).websiteTitle : null}}",
+                        "{{speakers[speaker - 1] ? getSpeakerImg(speakers[speaker - 1].imageUrl) : ''}}"
+                      )
+                    +slotDescription(
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionTitle : null}}",
+                      "{{getSession(oneSlot.slotSession) ? getSession(oneSlot.slotSession).sessionDescription : null}}"
+                    )
