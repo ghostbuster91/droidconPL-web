@@ -418,6 +418,76 @@
     "linkedIn": "https://www.linkedin.com/in/miko%C5%82aj-nowak-b7916585",
     "googlePlus": "",
     "imageUrl": "Mikolaj-Nowak.jpg"
+  },
+  {
+    "id": 31,
+    "firstName": "Maciej",
+    "lastName": "Górski",
+    "websiteTitle": "",
+    "bio": "Maciej is a passionate Android developer. He cares about writing clean code and less of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "https://twitter.com/mg6maciej",
+    "githubLink": "https://github.com/mg6maciej",
+    "linkedIn": "https://www.linkedin.com/in/mg6maciej",
+    "googlePlus": "https://plus.google.com/u/0/+MaciejG%C3%B3rski6",
+    "imageUrl": "Maciej-Gorski.jpg"
+  },
+  {
+    "id": 32,
+    "firstName": "Karol",
+    "lastName": "Kowalski",
+    "websiteTitle": "OrdonTeam",
+    "bio": "Android Developer. Works in Kotlin, hates Java. He's a really poor developer, so he has to test his code all the time. He also cares about automation and spreading knowledge.",
+    "websiteLink": "https://github.com/OrdonTeam",
+    "facebookLink": "https://www.facebook.com/karol.kowalski.5070",
+    "twitterHandler": "https://twitter.com/ordon1313",
+    "githubLink": "https://github.com/OrdonTeam",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "Karol-Kowalski.jpg"
+  },
+  {
+    "id": 33,
+    "firstName": "Kasper",
+    "lastName": "Kondzielski",
+    "websiteTitle": "",
+    "bio": "",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
+  },
+  {
+    "id": 34,
+    "firstName": "Dominik",
+    "lastName": "Malantowicz",
+    "websiteTitle": "",
+    "bio": "Android developer. He is as short as his functions written in Kotlin. Any untested line of code in project gives him a great opportunity for a revert. He appreciates CI, as it runs hundreds of his tests. Loves clean code and good architecture. ",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "https://twitter.com/jozzi05",
+    "githubLink": "https://github.com/jozzi05",
+    "linkedIn": "https://pl.linkedin.com/in/dominik-malantowicz-60a550108",
+    "googlePlus": "",
+    "imageUrl": "Dominik-Malantowicz.jpg"
+  },
+  {
+    "id": 35,
+    "firstName": "Łukasz",
+    "lastName": "Patecki",
+    "websiteTitle": "",
+    "bio": "I worked on exciting Android apps for finance industry and public safety. Currently I am having a brief affair with firebase as a side project.",
+    "websiteLink": "",
+    "facebookLink": "",
+    "twitterHandler": "",
+    "githubLink": "",
+    "linkedIn": "",
+    "googlePlus": "",
+    "imageUrl": "default-speaker.png"
   }
 
 ]
