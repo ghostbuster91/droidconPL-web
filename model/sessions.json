@@ -305,8 +305,8 @@
     "sessionType": "Workshop",
     "sessionTitle": "You app is on Fire(base)!",
     "sessionDescription": "Introduction On this workshop we will find out how to impress our colleagues, by quickly building an application with shared online database… and afterwards struggle to make it secure. Brief look at the database itself, security rules, bolt complier and some ideas how to structure data. ",
-    "sessionTags": ["TDD", "Unit Tests"],
-    "sessionLength": 3,
+    "sessionTags": ["Firebase", "Realtime"],
+    "sessionLength": 2.5,
     "workshopCapacity": 15
   }
 ]
