@@ -421,17 +421,17 @@
   },
   {
     "id": 31,
-    "firstName": "Maciek",
+    "firstName": "Maciej",
     "lastName": "Górski",
     "websiteTitle": "",
-    "bio": "",
+    "bio": "Maciej is a passionate Android developer. He cares about writing clean code and less of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.",
     "websiteLink": "",
     "facebookLink": "",
-    "twitterHandler": "",
-    "githubLink": "",
-    "linkedIn": "",
-    "googlePlus": "",
-    "imageUrl": "default-speaker.png"
+    "twitterHandler": "https://twitter.com/mg6maciej",
+    "githubLink": "https://github.com/mg6maciej",
+    "linkedIn": "https://www.linkedin.com/in/mg6maciej",
+    "googlePlus": "https://plus.google.com/u/0/+MaciejG%C3%B3rski6",
+    "imageUrl": "Maciej-Gorski.jpg"
   },
   {
     "id": 32,
@@ -466,14 +466,14 @@
     "firstName": "Dominik",
     "lastName": "Malantowicz",
     "websiteTitle": "",
-    "bio": "",
+    "bio": "Android developer. He is as short as his functions written in Kotlin. Any untested line of code in project gives him a great opportunity for a revert. He appreciates CI, as it runs hundreds of his tests. Loves clean code and good architecture. ",
     "websiteLink": "",
     "facebookLink": "",
-    "twitterHandler": "",
-    "githubLink": "",
-    "linkedIn": "",
+    "twitterHandler": "https://twitter.com/jozzi05",
+    "githubLink": "https://github.com/jozzi05",
+    "linkedIn": "https://pl.linkedin.com/in/dominik-malantowicz-60a550108",
     "googlePlus": "",
-    "imageUrl": "default-speaker.png"
+    "imageUrl": "Dominik-Malantowicz.jpg"
   },
   {
     "id": 35,
