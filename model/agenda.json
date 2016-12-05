@@ -819,8 +819,8 @@
       {
         "slotTitle": "",
         "slotPicture": "",
-        "slotSpeaker": [],
-        "slotSession": ""
+        "slotSpeaker": [35],
+        "slotSession": 34
       },
       {
         "slotTitle": "'TDD on Android' continues",
