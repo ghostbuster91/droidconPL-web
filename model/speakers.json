@@ -479,15 +479,15 @@
     "id": 35,
     "firstName": "Łukasz",
     "lastName": "Patecki",
-    "websiteTitle": "",
-    "bio": "I worked on exciting Android apps for finance industry and public safety. Currently I am having a brief affair with firebase as a side project.",
-    "websiteLink": "",
-    "facebookLink": "",
-    "twitterHandler": "",
+    "websiteTitle": "Me on Medium",
+    "bio": "I worked on exciting Android apps for finance industry and public safety. Currently having a brief affair with firebase as a side project.",
+    "websiteLink": "https://medium.com/@lpatecki/",
+    "facebookLink": "https://www.facebook.com/patecki",
+    "twitterHandler": "https://twitter.com/@lpatecki",
     "githubLink": "",
-    "linkedIn": "",
+    "linkedIn": "https://www.linkedin.com/in/patman",
     "googlePlus": "",
-    "imageUrl": "default-speaker.png"
+    "imageUrl": "Lukasz-Patecki.jpg"
   }
 
 ]
