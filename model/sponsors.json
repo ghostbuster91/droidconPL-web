@@ -54,5 +54,13 @@
     "sponsorLogo": "five-logo_400x400.png",
     "sponsorTitle": "Five",
     "sponsorPackage": "Travel"
+  },
+  {
+    "sponsorId": 8,
+    "sponsorName": "Twilio",
+    "sponsorUrl": "https://www.twilio.com",
+    "sponsorLogo": "twilio-logo_400x400.png",
+    "sponsorTitle": "Twilio",
+    "sponsorPackage": "Travel"
   }
 ]
