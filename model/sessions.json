@@ -294,7 +294,7 @@
     "speakerId": [32,33,34],
     "sessionType": "Workshop",
     "sessionTitle": "TDD on Android",
-    "sessionDescription": "In our team, we do write in TDD on regular basis.<br />During the workshop we will show you sample of our process and architecture.<br />We will start from unit tests and move toward android functional tests. All in extreme TDD approach. No code without tests at all!",
+    "sessionDescription": "In our team, we do write in TDD on regular basis.<br />During the workshop we will show you sample of our process and architecture.<br />We will start from unit tests and move toward android functional tests. All in extreme TDD approach. No code without tests at all!<br />Bring your own computer with Android Studio and sdk version 25.",
     "sessionTags": ["TDD", "Unit Tests"],
     "sessionLength": 8,
     "workshopCapacity": 12
